@@ -1,0 +1,2069 @@
+{
+  "dataset": "BodyParts3D / Anatomography",
+  "version": "4.3",
+  "variant": "Object set 4.3, ontology tree FMA3.0; official IS-A concept-to-element mapping",
+  "retrieved": "2026-10-16",
+  "license": "CC-BY-SA-2.1-JP",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en",
+  "sourceLicenseStatement": "https://lifesciencedb.jp/bp3d/info/index.html#License",
+  "credit": "BodyParts3D / Anatomography, © The Database Center for Life Science. CC BY-SA 2.1 Japan. Adapted by OrganUI.",
+  "mirror": {
+    "repository": "https://github.com/olivercase/body_parts_3d_api",
+    "commit": "fd527e6f4daf732fd814314d9257df5877b844bc"
+  },
+  "mapping": {
+    "file": "docs/model-source/FMA2Obj-4.3.tsv",
+    "sha256": "c3d16c891016da13447de2fc3241d05d92e8f9dc460e363233c03f420b935d4f"
+  },
+  "transform": {
+    "sourceBoundsMm": {
+      "min": [
+        -281.198,
+        -200.794,
+        -59.8566
+      ],
+      "max": [
+        281.203,
+        10.0683,
+        1539.22
+      ]
+    },
+    "centerMm": [
+      0.0024999999999977263,
+      -95.36285000000001,
+      739.6817
+    ],
+    "scale": 0.004,
+    "axes": "[x, z, -y]"
+  },
+  "simplification": {
+    "ratio": 0.2,
+    "error": 0.0015,
+    "lockBorder": true,
+    "sourceTriangles": 521538
+  },
+  "runtime": {
+    "file": "vessels.glb",
+    "bytes": 2417320,
+    "sha256": "3e0f747694327206bf06fb5c91f2dfe4b727986ad9d3e1a638feedbc8d5c5a9a"
+  },
+  "structures": [
+    {
+      "id": "carotid-arteries",
+      "fma": "FMA69325",
+      "kind": "artery",
+      "runtimeTriangles": 1404,
+      "concepts": [
+        "FMA69325",
+        "FMA75866",
+        "FMA66531",
+        "FMA69326",
+        "FMA75867"
+      ],
+      "sourceName": "common, internal and external carotid arteries",
+      "elements": [
+        {
+          "element": "FJ4986",
+          "concept": "FMA69325",
+          "headerConcept": "FMA69325",
+          "sourceName": "Trunk of right common carotid artery",
+          "sha256": "ca755ed77030afa1913f6ebc0ab88a8c16799a3e99d07a09275c54ea208bc1d7",
+          "bytes": 217376,
+          "vertices": 1755,
+          "triangles": 3506
+        },
+        {
+          "element": "FJ4993",
+          "concept": "FMA75866",
+          "headerConcept": "FMA75866",
+          "sourceName": "Trunk of right internal carotid artery",
+          "sha256": "893e6efd5fdb36d234e14963de05d8475887093df1985a675a9f185dfb209b56",
+          "bytes": 47474,
+          "vertices": 417,
+          "triangles": 792
+        },
+        {
+          "element": "FJ4989",
+          "concept": "FMA66531",
+          "headerConcept": "FMA66531",
+          "sourceName": "Trunk of right external carotid artery",
+          "sha256": "8cd56bd8d84b99e5aee368926aca2e8cfcdef6c9cc1d3b6c22d87c60a94c7d8c",
+          "bytes": 75545,
+          "vertices": 643,
+          "triangles": 1282
+        },
+        {
+          "element": "FJ1682M",
+          "concept": "FMA69326",
+          "headerConcept": "FMA69326",
+          "sourceName": "Trunk of left common carotid artery",
+          "sha256": "8d125609795bb2ee2ebcf838adfdd5ce79414e09c292c3eb1c5220f9333c32a9",
+          "bytes": 74952,
+          "vertices": 650,
+          "triangles": 1272
+        },
+        {
+          "element": "FJ3483",
+          "concept": "FMA75867",
+          "headerConcept": "FMA75867",
+          "sourceName": "Trunk of left internal carotid artery",
+          "sha256": "2638d2c667900e7b31b5f4b37f7142d04b9f0afa719f029a4540235993ab0553",
+          "bytes": 11774,
+          "vertices": 126,
+          "triangles": 170
+        }
+      ]
+    },
+    {
+      "id": "vertebral-arteries",
+      "fma": "FMA76260",
+      "kind": "artery",
+      "runtimeTriangles": 1038,
+      "concepts": [
+        "FMA76261",
+        "FMA76262"
+      ],
+      "sourceName": "right and left vertebral arteries",
+      "elements": [
+        {
+          "element": "FJ5015",
+          "concept": "FMA76261",
+          "headerConcept": "FMA76261",
+          "sourceName": "Trunk of right vertebral artery",
+          "sha256": "513803dfee654fce199c28a48760e4d4c957d8244ed2de445c4a1d6f361f8972",
+          "bytes": 69907,
+          "vertices": 640,
+          "triangles": 1096
+        },
+        {
+          "element": "FJ1725M",
+          "concept": "FMA76262",
+          "headerConcept": "FMA76262",
+          "sourceName": "Trunk of left vertebral artery",
+          "sha256": "5bdbd102269eb365b8947da03cf1a0c1837cda5457cb50e33ce490bcc83d7ff6",
+          "bytes": 51659,
+          "vertices": 489,
+          "triangles": 800
+        }
+      ]
+    },
+    {
+      "id": "jugular-veins",
+      "fma": "FMA50818",
+      "kind": "vein",
+      "runtimeTriangles": 1234,
+      "concepts": [
+        "FMA50818",
+        "FMA4762",
+        "FMA13111"
+      ],
+      "sourceName": "internal jugular veins and right external jugular vein",
+      "elements": [
+        {
+          "element": "FJ5105",
+          "concept": "FMA50818",
+          "headerConcept": "FMA50818",
+          "sourceName": "Right internal jugular vein proper",
+          "sha256": "244f24a58d00d218fa0caf4ca80770268c1fd621f8d39085200059e3381a8f54",
+          "bytes": 91550,
+          "vertices": 777,
+          "triangles": 1550
+        },
+        {
+          "element": "FJ3485",
+          "concept": "FMA4762",
+          "headerConcept": "FMA4762",
+          "sourceName": "Left internal jugular vein",
+          "sha256": "f823c5a7ca2d49952eecc2fe7a81faddf26c907783fc93525ee753a087cc861d",
+          "bytes": 16664,
+          "vertices": 158,
+          "triangles": 280
+        },
+        {
+          "element": "FJ5082",
+          "concept": "FMA13111",
+          "headerConcept": "FMA13111",
+          "sourceName": "Right external jugular vein",
+          "sha256": "6a108df43a56e51fe5eeb15cb568715790de731402f5df94b54f6a47fd3c1e74",
+          "bytes": 272396,
+          "vertices": 2176,
+          "triangles": 4348
+        }
+      ]
+    },
+    {
+      "id": "ascending-aorta",
+      "fma": "FMA3736",
+      "kind": "artery",
+      "runtimeTriangles": 392,
+      "concepts": [
+        "FMA3736"
+      ],
+      "sourceName": "ascending aorta",
+      "elements": [
+        {
+          "element": "FJ3413",
+          "concept": "FMA3736",
+          "headerConcept": "FMA3736",
+          "sourceName": "Ascending aorta",
+          "sha256": "6903aed5746a4e210ebd7c0a15bba69707b2ef29398b97903bc2815c2f82c2bc",
+          "bytes": 24321,
+          "vertices": 229,
+          "triangles": 396
+        }
+      ]
+    },
+    {
+      "id": "aortic-arch",
+      "fma": "FMA3768",
+      "kind": "artery",
+      "runtimeTriangles": 618,
+      "concepts": [
+        "FMA3768"
+      ],
+      "sourceName": "arch of aorta",
+      "elements": [
+        {
+          "element": "FJ3411",
+          "concept": "FMA3768",
+          "headerConcept": "FMA3768",
+          "sourceName": "Arch of aorta",
+          "sha256": "6b72258bcc413abbcf6193e11575933d08f3ba960b52a7b8462a7b0ccb4607eb",
+          "bytes": 41378,
+          "vertices": 381,
+          "triangles": 670
+        }
+      ]
+    },
+    {
+      "id": "descending-aorta",
+      "fma": "FMA3784",
+      "kind": "artery",
+      "runtimeTriangles": 912,
+      "concepts": [
+        "FMA3784"
+      ],
+      "sourceName": "descending aorta",
+      "elements": [
+        {
+          "element": "FJ3427",
+          "concept": "FMA3784",
+          "headerConcept": "FMA3784",
+          "sourceName": "Descending aorta",
+          "sha256": "5d461cda0a71eaa0136f3a13bf1938ad7660ee3e4cc1750eb4ac865c91ba4668",
+          "bytes": 288865,
+          "vertices": 2351,
+          "triangles": 4562
+        }
+      ]
+    },
+    {
+      "id": "brachiocephalic-trunk",
+      "fma": "FMA69316",
+      "kind": "artery",
+      "runtimeTriangles": 430,
+      "concepts": [
+        "FMA69316"
+      ],
+      "sourceName": "trunk of brachiocephalic artery",
+      "elements": [
+        {
+          "element": "FJ4715",
+          "concept": "FMA69316",
+          "headerConcept": "FMA69316",
+          "sourceName": "Trunk of brachiocephalic artery",
+          "sha256": "588bc4140d237a2559bda50f04418b6c9fe4b7d203593be67fb25b4855d37ffe",
+          "bytes": 24660,
+          "vertices": 217,
+          "triangles": 430
+        }
+      ]
+    },
+    {
+      "id": "internal-thoracic-arteries",
+      "fma": "FMA76302",
+      "kind": "artery",
+      "runtimeTriangles": 1436,
+      "concepts": [
+        "FMA76303",
+        "FMA76304"
+      ],
+      "sourceName": "right and left internal thoracic arteries",
+      "elements": [
+        {
+          "element": "FJ1937",
+          "concept": "FMA76303",
+          "headerConcept": "FMA76303",
+          "sourceName": "Trunk of right internal thoracic artery",
+          "sha256": "9206a509aa4dd9148554e083424354789b6e254257c0b7c0ec8e4a9eb6d95aaf",
+          "bytes": 219589,
+          "vertices": 1775,
+          "triangles": 3546
+        },
+        {
+          "element": "FJ1972",
+          "concept": "FMA76304",
+          "headerConcept": "FMA76304",
+          "sourceName": "Trunk of left internal thoracic artery",
+          "sha256": "57672a886f56a28fee35c8f345a9309ba1e3f69bea208543bd1f4fa22407200c",
+          "bytes": 224198,
+          "vertices": 1823,
+          "triangles": 3642
+        }
+      ]
+    },
+    {
+      "id": "pulmonary-trunk",
+      "fma": "FMA8612",
+      "kind": "artery",
+      "runtimeTriangles": 1138,
+      "concepts": [
+        "FMA8612"
+      ],
+      "sourceName": "pulmonary trunk",
+      "elements": [
+        {
+          "element": "FJ2966",
+          "concept": "FMA8612",
+          "headerConcept": "FMA8612",
+          "sourceName": "Pulmonary trunk",
+          "sha256": "21cd36edc646954c795e8bd658f97448953b3e09d3e0c8b78f78711d7c9ef776",
+          "bytes": 89276,
+          "vertices": 871,
+          "triangles": 1302
+        }
+      ]
+    },
+    {
+      "id": "pulmonary-arteries",
+      "fma": "FMA8615",
+      "kind": "artery",
+      "runtimeTriangles": 1492,
+      "concepts": [
+        "FMA8613",
+        "FMA8614"
+      ],
+      "sourceName": "trunks of right and left pulmonary arteries",
+      "elements": [
+        {
+          "element": "FJ3019",
+          "concept": "FMA8613",
+          "headerConcept": "FMA8613",
+          "sourceName": "Trunk of right pulmonary artery",
+          "sha256": "5d11cd93c4fe142f059681e107bc174d53c1baf7288861a6b487df9b6a16ff58",
+          "bytes": 39395,
+          "vertices": 341,
+          "triangles": 678
+        },
+        {
+          "element": "FJ2924",
+          "concept": "FMA8614",
+          "headerConcept": "FMA8614",
+          "sourceName": "Trunk of left pulmonary artery",
+          "sha256": "46df23e8f3d0c95037ed4ed2daa9ce3c3fdb52098d5158992602120f63223b38",
+          "bytes": 341905,
+          "vertices": 2727,
+          "triangles": 5450
+        }
+      ]
+    },
+    {
+      "id": "pulmonary-veins",
+      "fma": "FMA8648",
+      "kind": "vein",
+      "runtimeTriangles": 1908,
+      "concepts": [
+        "FMA50302",
+        "FMA50303",
+        "FMA50305",
+        "FMA50306"
+      ],
+      "sourceName": "trunks of the four pulmonary veins",
+      "elements": [
+        {
+          "element": "FJ3020",
+          "concept": "FMA50302",
+          "headerConcept": "FMA50302",
+          "sourceName": "Trunk of right superior pulmonary vein",
+          "sha256": "1950414c9d2faa611ad619cd34f4adf658265b3e26146a8c403018c426215f67",
+          "bytes": 18885,
+          "vertices": 171,
+          "triangles": 324
+        },
+        {
+          "element": "FJ3040",
+          "concept": "FMA50303",
+          "headerConcept": "FMA50303",
+          "sourceName": "Trunk of right inferior pulmonary vein",
+          "sha256": "da6674074ac28a735013aaefa030685719b7fcd61ca787c8f909af7f0a9bc6a3",
+          "bytes": 11692,
+          "vertices": 113,
+          "triangles": 196
+        },
+        {
+          "element": "FJ2925",
+          "concept": "FMA50305",
+          "headerConcept": "FMA50305",
+          "sourceName": "Trunk of left superior pulmonary vein",
+          "sha256": "579561c14121856fb0518e33d97ba7d39a533fa13bfb2931beab1d90e0a08192",
+          "bytes": 23624,
+          "vertices": 209,
+          "triangles": 414
+        },
+        {
+          "element": "FJ2933",
+          "concept": "FMA50305",
+          "headerConcept": "FMA50305",
+          "sourceName": "Trunk of left superior pulmonary vein",
+          "sha256": "f5999e21ab13202781be359397d9b78069da0dfba97df702803f5878d7b91330",
+          "bytes": 27104,
+          "vertices": 239,
+          "triangles": 472
+        },
+        {
+          "element": "FJ2944",
+          "concept": "FMA50306",
+          "headerConcept": "FMA50306",
+          "sourceName": "Trunk of left inferior pulmonary vein",
+          "sha256": "6e463bf46a0ee86eab57a4456355b64992b6996d5b1dd9a1273c3c1cd521fec8",
+          "bytes": 17466,
+          "vertices": 157,
+          "triangles": 310
+        },
+        {
+          "element": "FJ2950",
+          "concept": "FMA50306",
+          "headerConcept": "FMA50306",
+          "sourceName": "Trunk of left inferior pulmonary vein",
+          "sha256": "7fa6712e3970995e7439eb9888f5bde4886b56cb934ed90407170006a8638fe4",
+          "bytes": 18424,
+          "vertices": 165,
+          "triangles": 326
+        },
+        {
+          "element": "FJ2955",
+          "concept": "FMA50306",
+          "headerConcept": "FMA50306",
+          "sourceName": "Trunk of left inferior pulmonary vein",
+          "sha256": "94b035dd2716a44e963e3b125f938cb1e349562a84448921ca1fb9160f4ffaea",
+          "bytes": 31962,
+          "vertices": 280,
+          "triangles": 556
+        }
+      ]
+    },
+    {
+      "id": "superior-vena-cava",
+      "fma": "FMA4720",
+      "kind": "vein",
+      "runtimeTriangles": 578,
+      "concepts": [
+        "FMA4720"
+      ],
+      "sourceName": "superior vena cava",
+      "elements": [
+        {
+          "element": "FJ3645",
+          "concept": "FMA4720",
+          "headerConcept": "FMA4720",
+          "sourceName": "Superior vena cava",
+          "sha256": "48a2c870ff2dbb3f6eef1817cf0ebf57501c78f0726787d3a40424178095e902",
+          "bytes": 35843,
+          "vertices": 318,
+          "triangles": 598
+        }
+      ]
+    },
+    {
+      "id": "brachiocephalic-veins",
+      "fma": "FMA66647",
+      "kind": "vein",
+      "runtimeTriangles": 1290,
+      "concepts": [
+        "FMA66647",
+        "FMA4761"
+      ],
+      "sourceName": "right and left brachiocephalic veins",
+      "elements": [
+        {
+          "element": "FJ3583",
+          "concept": "FMA66647",
+          "headerConcept": "FMA66647",
+          "sourceName": "Trunk of right brachiocephalic vein",
+          "sha256": "58f75b56ff6e4310f335c426025a133d09c458d3353d9cae47cb5a68c8711d60",
+          "bytes": 31668,
+          "vertices": 275,
+          "triangles": 546
+        },
+        {
+          "element": "FJ3482",
+          "concept": "FMA4761",
+          "headerConcept": "FMA4761",
+          "sourceName": "Left brachiocephalic vein",
+          "sha256": "146540e833e0fc5ba091deffe0cc3ccd5af2f0310b41ed7061dd69ebe21fcdfd",
+          "bytes": 43629,
+          "vertices": 377,
+          "triangles": 748
+        }
+      ]
+    },
+    {
+      "id": "azygos-system",
+      "fma": "FMA4838",
+      "kind": "vein",
+      "runtimeTriangles": 5410,
+      "concepts": [
+        "FMA4838",
+        "FMA4944",
+        "FMA5011"
+      ],
+      "sourceName": "azygos, hemiazygos and accessory hemiazygos veins",
+      "elements": [
+        {
+          "element": "FJ3416",
+          "concept": "FMA4838",
+          "headerConcept": "FMA4838",
+          "sourceName": "Azygos vein",
+          "sha256": "ffd96b33a9eeaf229f25d3dd2eb9caecd399124255c2245d289ae92efdba42e4",
+          "bytes": 1185447,
+          "vertices": 9132,
+          "triangles": 18260
+        },
+        {
+          "element": "FJ1981",
+          "concept": "FMA5011",
+          "headerConcept": "FMA5011",
+          "sourceName": "Accessory hemiazygos vein",
+          "sha256": "c95a574262a97c80f578f37ad98a8d57c4c865c074c69383dfaf6750544e1ce9",
+          "bytes": 282824,
+          "vertices": 2268,
+          "triangles": 4532
+        },
+        {
+          "element": "FJ3434",
+          "concept": "FMA4944",
+          "headerConcept": "FMA4944",
+          "sourceName": "Hemiazygos vein",
+          "sha256": "d6a7695382586ae3fd1428c1ccd6388d63546c5650a468af9dc72cc6b4fa4bf4",
+          "bytes": 265441,
+          "vertices": 2135,
+          "triangles": 4266
+        }
+      ]
+    },
+    {
+      "id": "subclavian-arteries",
+      "fma": "FMA69317",
+      "kind": "artery",
+      "runtimeTriangles": 664,
+      "concepts": [
+        "FMA69318",
+        "FMA69319"
+      ],
+      "sourceName": "trunks of right and left subclavian arteries",
+      "elements": [
+        {
+          "element": "FJ3579",
+          "concept": "FMA69318",
+          "headerConcept": "FMA69318",
+          "sourceName": "Trunk of right subclavian artery",
+          "sha256": "685211dba96c9cdcef4c04b35daff86317fd4d3a28f7b123b9e8f45d4b150175",
+          "bytes": 27310,
+          "vertices": 247,
+          "triangles": 452
+        },
+        {
+          "element": "FJ3479",
+          "concept": "FMA69319",
+          "headerConcept": "FMA69319",
+          "sourceName": "Trunk of left subclavian artery",
+          "sha256": "577179fcb8c1bb9eb19a596150158c28cfef808c73ac0b005900e253dd699b92",
+          "bytes": 39608,
+          "vertices": 362,
+          "triangles": 646
+        }
+      ]
+    },
+    {
+      "id": "axillary-arteries",
+      "fma": "FMA22654",
+      "kind": "artery",
+      "runtimeTriangles": 724,
+      "concepts": [
+        "FMA22655",
+        "FMA22656"
+      ],
+      "sourceName": "right and left axillary arteries",
+      "elements": [
+        {
+          "element": "FJ2268",
+          "concept": "FMA22655",
+          "headerConcept": "FMA22655",
+          "sourceName": "Right axillary artery",
+          "sha256": "c76630b53f0c84b99d3fcc6b689374916f91a8689ed62d55b8b9a878b1ce250d",
+          "bytes": 107893,
+          "vertices": 915,
+          "triangles": 1826
+        },
+        {
+          "element": "FJ2216",
+          "concept": "FMA22656",
+          "headerConcept": "FMA22656",
+          "sourceName": "Left axillary artery",
+          "sha256": "0c7899cd1aadc005dba7432fd3a09197236505519e99882635ebedd04b1c8c6b",
+          "bytes": 105519,
+          "vertices": 902,
+          "triangles": 1800
+        }
+      ]
+    },
+    {
+      "id": "brachial-arteries",
+      "fma": "FMA22689",
+      "kind": "artery",
+      "runtimeTriangles": 1316,
+      "concepts": [
+        "FMA22691",
+        "FMA22692"
+      ],
+      "sourceName": "right and left brachial arteries",
+      "elements": [
+        {
+          "element": "FJ2271",
+          "concept": "FMA22691",
+          "headerConcept": "FMA22691",
+          "sourceName": "Right brachial artery",
+          "sha256": "6b69f0550d5c614befbb5f4584def210d552c8b9c8ba8e6074d4f759de6bd8fb",
+          "bytes": 191229,
+          "vertices": 1558,
+          "triangles": 3112
+        },
+        {
+          "element": "FJ2219",
+          "concept": "FMA22692",
+          "headerConcept": "FMA22692",
+          "sourceName": "Left brachial artery",
+          "sha256": "abfcf16be0c40edab3f9865444ceca142d6a39c91f2bce23ea5f9583419c4986",
+          "bytes": 213003,
+          "vertices": 1737,
+          "triangles": 3470
+        }
+      ]
+    },
+    {
+      "id": "radial-arteries",
+      "fma": "FMA66621",
+      "kind": "artery",
+      "runtimeTriangles": 3046,
+      "concepts": [
+        "FMA66625",
+        "FMA66626"
+      ],
+      "sourceName": "trunks of right and left radial arteries",
+      "elements": [
+        {
+          "element": "FJ2294",
+          "concept": "FMA66625",
+          "headerConcept": "FMA22691",
+          "sourceName": "Right brachial artery",
+          "sha256": "cdf2302d3c47686b36e5eb095a86264d2a682f334ac1aff8744246ee81aad756",
+          "bytes": 477494,
+          "vertices": 3738,
+          "triangles": 7472
+        },
+        {
+          "element": "FJ2242",
+          "concept": "FMA66626",
+          "headerConcept": "FMA66626",
+          "sourceName": "Trunk of left radial artery",
+          "sha256": "fbc112c07726018aa49524987d8ba69ce11dd2fa12dd369c32eac032115c856b",
+          "bytes": 492581,
+          "vertices": 3884,
+          "triangles": 7764
+        }
+      ]
+    },
+    {
+      "id": "ulnar-arteries",
+      "fma": "FMA66622",
+      "kind": "artery",
+      "runtimeTriangles": 2798,
+      "concepts": [
+        "FMA66623",
+        "FMA66624"
+      ],
+      "sourceName": "trunks of right and left ulnar arteries",
+      "elements": [
+        {
+          "element": "FJ2310",
+          "concept": "FMA66623",
+          "headerConcept": "FMA22691",
+          "sourceName": "Right brachial artery",
+          "sha256": "0301f1d6eece6cfbc42ecc90d7caf3b261514c00fa00c55e506adbf816bd8ff1",
+          "bytes": 438345,
+          "vertices": 3440,
+          "triangles": 6876
+        },
+        {
+          "element": "FJ2258",
+          "concept": "FMA66624",
+          "headerConcept": "FMA66624",
+          "sourceName": "Trunk of left ulnar artery",
+          "sha256": "745eaf973c2aae99be5f626e643e33049e207c8a6a1a6a0d002b9cc3e9514b52",
+          "bytes": 450756,
+          "vertices": 3562,
+          "triangles": 7114
+        }
+      ]
+    },
+    {
+      "id": "palmar-arches",
+      "fma": "FMA22838",
+      "kind": "artery",
+      "runtimeTriangles": 700,
+      "concepts": [
+        "FMA22839",
+        "FMA22840"
+      ],
+      "sourceName": "right and left deep palmar arches",
+      "elements": [
+        {
+          "element": "FJ2279",
+          "concept": "FMA22839",
+          "headerConcept": "FMA22839",
+          "sourceName": "Right deep palmar arch",
+          "sha256": "661b5264064dcabeef17ffe7fb22f1ceed3ae6f6e1e182c3cff8f2b860559fe8",
+          "bytes": 102580,
+          "vertices": 870,
+          "triangles": 1736
+        },
+        {
+          "element": "FJ2227",
+          "concept": "FMA22840",
+          "headerConcept": "FMA22840",
+          "sourceName": "Left deep palmar arch",
+          "sha256": "d62aaaccffe3882403f23533bc8526dc14c0bc25e24adbd6864747eea5a3b463",
+          "bytes": 103425,
+          "vertices": 885,
+          "triangles": 1764
+        }
+      ]
+    },
+    {
+      "id": "subclavian-veins",
+      "fma": "FMA4725",
+      "kind": "vein",
+      "runtimeTriangles": 558,
+      "concepts": [
+        "FMA4755",
+        "FMA4763"
+      ],
+      "sourceName": "right and left subclavian veins",
+      "elements": [
+        {
+          "element": "FJ3587",
+          "concept": "FMA4755",
+          "headerConcept": "FMA4755",
+          "sourceName": "Right subclavian vein",
+          "sha256": "bdd60f5e0407e4a237e7b03e302c8e7265001e20a6a8b8f7d2e776f2d8b2f431",
+          "bytes": 22618,
+          "vertices": 209,
+          "triangles": 368
+        },
+        {
+          "element": "FJ3486",
+          "concept": "FMA4763",
+          "headerConcept": "FMA4763",
+          "sourceName": "Left subclavian vein",
+          "sha256": "e91a4667bcd399c36281b0ecfb337623d5c9cb1bcd99b43db42b2142ef21517f",
+          "bytes": 27757,
+          "vertices": 271,
+          "triangles": 434
+        }
+      ]
+    },
+    {
+      "id": "axillary-veins",
+      "fma": "FMA13329",
+      "kind": "vein",
+      "runtimeTriangles": 850,
+      "concepts": [
+        "FMA13330",
+        "FMA13331"
+      ],
+      "sourceName": "right and left axillary veins",
+      "elements": [
+        {
+          "element": "FJ2269",
+          "concept": "FMA13330",
+          "headerConcept": "FMA13330",
+          "sourceName": "Right axillary vein",
+          "sha256": "49154a671a269e229cb40b95db3884eeddc2973972e56d3c2ed6090879203aaf",
+          "bytes": 130511,
+          "vertices": 1112,
+          "triangles": 2146
+        },
+        {
+          "element": "FJ2217",
+          "concept": "FMA13331",
+          "headerConcept": "FMA13331",
+          "sourceName": "Left axillary vein",
+          "sha256": "56ca24aa806620872a0660710ccd2704ceb6eb4fb7499c74f1f46d790c2360eb",
+          "bytes": 126472,
+          "vertices": 1089,
+          "triangles": 2110
+        }
+      ]
+    },
+    {
+      "id": "cephalic-veins",
+      "fma": "FMA13324",
+      "kind": "vein",
+      "runtimeTriangles": 9098,
+      "concepts": [
+        "FMA13325",
+        "FMA13326"
+      ],
+      "sourceName": "right and left cephalic veins",
+      "elements": [
+        {
+          "element": "FJ2272",
+          "concept": "FMA13325",
+          "headerConcept": "FMA13325",
+          "sourceName": "Right cephalic vein",
+          "sha256": "890a655783c58399d652af125be278d0fccd0fe86a8758619161144145cdc8c9",
+          "bytes": 1491506,
+          "vertices": 11381,
+          "triangles": 22622
+        },
+        {
+          "element": "FJ2220",
+          "concept": "FMA13326",
+          "headerConcept": "FMA13326",
+          "sourceName": "Left cephalic vein",
+          "sha256": "e5ad57e024d1dd922ebf7d22971b1d6f765fe674e50118cd3bddac118698dfcf",
+          "bytes": 1497564,
+          "vertices": 11505,
+          "triangles": 22874
+        }
+      ]
+    },
+    {
+      "id": "basilic-veins",
+      "fma": "FMA22908",
+      "kind": "vein",
+      "runtimeTriangles": 7296,
+      "concepts": [
+        "FMA22909",
+        "FMA22910"
+      ],
+      "sourceName": "right and left basilic veins",
+      "elements": [
+        {
+          "element": "FJ2270",
+          "concept": "FMA22909",
+          "headerConcept": "FMA22909",
+          "sourceName": "Right basilic vein",
+          "sha256": "4783b228d402c86f39bd11593fd38ec2c2abbef9f2a2985c0cc612c7f3d15589",
+          "bytes": 1177608,
+          "vertices": 9080,
+          "triangles": 18150
+        },
+        {
+          "element": "FJ2218",
+          "concept": "FMA22910",
+          "headerConcept": "FMA22910",
+          "sourceName": "Left basilic vein",
+          "sha256": "8a996050d59000854aa4877c9be21cd2a8c97fab4f6bca56156dfb9bd2253277",
+          "bytes": 1181387,
+          "vertices": 9177,
+          "triangles": 18338
+        }
+      ]
+    },
+    {
+      "id": "celiac-trunk",
+      "fma": "FMA14812",
+      "kind": "artery",
+      "runtimeTriangles": 238,
+      "concepts": [
+        "FMA14812"
+      ],
+      "sourceName": "celiac trunk",
+      "elements": [
+        {
+          "element": "FJ3421",
+          "concept": "FMA14812",
+          "headerConcept": "FMA14812",
+          "sourceName": "Celiac trunk",
+          "sha256": "c8c7e54db47fa16520269d0af24ca2a1e8817292d8a78a70357c494c3feb12f3",
+          "bytes": 13962,
+          "vertices": 133,
+          "triangles": 238
+        }
+      ]
+    },
+    {
+      "id": "hepatic-artery",
+      "fma": "FMA14767",
+      "kind": "artery",
+      "runtimeTriangles": 704,
+      "concepts": [
+        "FMA76536",
+        "FMA76548"
+      ],
+      "sourceName": "trunks of common hepatic artery and hepatic artery proper",
+      "elements": [
+        {
+          "element": "FJ3078",
+          "concept": "FMA76536",
+          "headerConcept": "FMA76536",
+          "sourceName": "Trunk of common hepatic artery",
+          "sha256": "641608b734d447be3f596fc50b80144be67f778b4bd3125368ddef3db740df3f",
+          "bytes": 20296,
+          "vertices": 184,
+          "triangles": 348
+        },
+        {
+          "element": "FJ3081",
+          "concept": "FMA76548",
+          "headerConcept": "FMA76548",
+          "sourceName": "Trunk of hepatic artery proper",
+          "sha256": "a07f347b1e166a0e88c3ee699a4612fee2148fe8a93ae2ad57996f4a30a60031",
+          "bytes": 20481,
+          "vertices": 181,
+          "triangles": 358
+        }
+      ]
+    },
+    {
+      "id": "splenic-artery",
+      "fma": "FMA14773",
+      "kind": "artery",
+      "runtimeTriangles": 2298,
+      "concepts": [
+        "FMA14773"
+      ],
+      "sourceName": "splenic artery",
+      "elements": [
+        {
+          "element": "FJ3640",
+          "concept": "FMA14773",
+          "headerConcept": "FMA14773",
+          "sourceName": "Splenic artery",
+          "sha256": "f72ad4af208b4a35c72a76f80922cd34f7ae77ab9d9e00aa0fcb5b1925037c57",
+          "bytes": 126275,
+          "vertices": 1273,
+          "triangles": 1742
+        },
+        {
+          "element": "FJ3544",
+          "concept": "FMA14773",
+          "headerConcept": "FMA14773",
+          "sourceName": "Splenic artery",
+          "sha256": "924bca915ecc43ce387d0e426614138b601cf0c02e7e0abd8bfa4e14d84e2194",
+          "bytes": 219617,
+          "vertices": 2325,
+          "triangles": 2588
+        },
+        {
+          "element": "FJ3420",
+          "concept": "FMA14773",
+          "headerConcept": "FMA14773",
+          "sourceName": "Splenic artery",
+          "sha256": "96661722071fda9d7f3f192643272fba299d2b133453e89d90d73ec3ae948384",
+          "bytes": 47672,
+          "vertices": 599,
+          "triangles": 440
+        }
+      ]
+    },
+    {
+      "id": "superior-mesenteric-artery",
+      "fma": "FMA66358",
+      "kind": "artery",
+      "runtimeTriangles": 734,
+      "concepts": [
+        "FMA66358"
+      ],
+      "sourceName": "trunk of superior mesenteric artery",
+      "elements": [
+        {
+          "element": "FJ3644",
+          "concept": "FMA66358",
+          "headerConcept": "FMA66358",
+          "sourceName": "Trunk of superior mesenteric artery",
+          "sha256": "e7d299a2e45bab5cfc1f102ba27dc3af78c3d2b309b6d00c5ba2c5db07e472e7",
+          "bytes": 90333,
+          "vertices": 782,
+          "triangles": 1506
+        }
+      ]
+    },
+    {
+      "id": "inferior-mesenteric-artery",
+      "fma": "FMA66359",
+      "kind": "artery",
+      "runtimeTriangles": 446,
+      "concepts": [
+        "FMA66359"
+      ],
+      "sourceName": "trunk of inferior mesenteric artery",
+      "elements": [
+        {
+          "element": "FJ3442",
+          "concept": "FMA66359",
+          "headerConcept": "FMA66359",
+          "sourceName": "Trunk of inferior mesenteric artery",
+          "sha256": "18ba13f602cde87dad466fab724d731d987b01ffd679c7f88054125762c1ca03",
+          "bytes": 32787,
+          "vertices": 299,
+          "triangles": 546
+        }
+      ]
+    },
+    {
+      "id": "renal-arteries",
+      "fma": "FMA66363",
+      "kind": "artery",
+      "runtimeTriangles": 4948,
+      "concepts": [
+        "FMA66363",
+        "FMA66364",
+        "FMA70486",
+        "FMA70487",
+        "FMA70489",
+        "FMA70490"
+      ],
+      "sourceName": "trunks and anterior and posterior divisions of right and left renal arteries",
+      "elements": [
+        {
+          "element": "FJ3576",
+          "concept": "FMA66363",
+          "headerConcept": "FMA66363",
+          "sourceName": "Trunk of right renal artery",
+          "sha256": "e282311345a6c464bb87c82a03132532951f4519e7d04d93ea099922ef87db56",
+          "bytes": 16072,
+          "vertices": 145,
+          "triangles": 282
+        },
+        {
+          "element": "FJ3476",
+          "concept": "FMA66364",
+          "headerConcept": "FMA66364",
+          "sourceName": "Trunk of left renal artery",
+          "sha256": "dfe5b3712f2940b5adfcd6d545b9964f77749f17fa5d9c2d888e451a832304e9",
+          "bytes": 14449,
+          "vertices": 132,
+          "triangles": 258
+        },
+        {
+          "element": "FJ3558",
+          "concept": "FMA70486",
+          "headerConcept": "FMA70486",
+          "sourceName": "Anterior division of right renal artery",
+          "sha256": "b01af1fa1bd274b3957e7882920e8e0ba707f8d791ab3b71b5141437c571320a",
+          "bytes": 64718,
+          "vertices": 570,
+          "triangles": 1066
+        },
+        {
+          "element": "FJ3559",
+          "concept": "FMA70486",
+          "headerConcept": "FMA70486",
+          "sourceName": "Anterior division of right renal artery",
+          "sha256": "4cf78068c7af89b466ecc00bcd06337049a88177695c22bfc3b6b80cd6eeb08a",
+          "bytes": 42626,
+          "vertices": 372,
+          "triangles": 718
+        },
+        {
+          "element": "FJ3560",
+          "concept": "FMA70486",
+          "headerConcept": "FMA70486",
+          "sourceName": "Anterior division of right renal artery",
+          "sha256": "abdaeefe2f5bb2bedc4c573add2e35ff0b3ae4f430e5a4a846e9e94bf7528a99",
+          "bytes": 39507,
+          "vertices": 346,
+          "triangles": 666
+        },
+        {
+          "element": "FJ3561",
+          "concept": "FMA70486",
+          "headerConcept": "FMA70486",
+          "sourceName": "Anterior division of right renal artery",
+          "sha256": "e395d4c4048e8be4076b7a1c5203bccfbc109696d6f2a80a4188033bd155443b",
+          "bytes": 39116,
+          "vertices": 355,
+          "triangles": 636
+        },
+        {
+          "element": "FJ3562",
+          "concept": "FMA70486",
+          "headerConcept": "FMA70486",
+          "sourceName": "Anterior division of right renal artery",
+          "sha256": "64829125814ff500cca0cfa4bf52d0a618d0aaacce491455ec3cfe73d287d824",
+          "bytes": 80878,
+          "vertices": 745,
+          "triangles": 1254
+        },
+        {
+          "element": "FJ3563",
+          "concept": "FMA70486",
+          "headerConcept": "FMA70486",
+          "sourceName": "Anterior division of right renal artery",
+          "sha256": "45d854e879a0cf689608a8ce53e50a912f2b3d7f8a6370d0f69253a236a4f957",
+          "bytes": 335252,
+          "vertices": 2995,
+          "triangles": 4700
+        },
+        {
+          "element": "FJ3458",
+          "concept": "FMA70487",
+          "headerConcept": "FMA70487",
+          "sourceName": "Anterior division of left renal artery",
+          "sha256": "843a749443c0aff7f2ce8f1723e85a2727cadff56b98526fb3b6cbab61c886cf",
+          "bytes": 85975,
+          "vertices": 736,
+          "triangles": 1468
+        },
+        {
+          "element": "FJ3459",
+          "concept": "FMA70487",
+          "headerConcept": "FMA70487",
+          "sourceName": "Anterior division of left renal artery",
+          "sha256": "4add66ee0fe0d6cde4da5d98f31e1f34a7ad189b3884453f1f80726c48e7dc27",
+          "bytes": 33233,
+          "vertices": 310,
+          "triangles": 534
+        },
+        {
+          "element": "FJ3460",
+          "concept": "FMA70487",
+          "headerConcept": "FMA70487",
+          "sourceName": "Anterior division of left renal artery",
+          "sha256": "c38d3afa438fcbc6d3bf741d911ed1302bb6bddffac53e0f7c98a2c4c6f0761d",
+          "bytes": 39895,
+          "vertices": 392,
+          "triangles": 598
+        },
+        {
+          "element": "FJ3461",
+          "concept": "FMA70487",
+          "headerConcept": "FMA70487",
+          "sourceName": "Anterior division of left renal artery",
+          "sha256": "158a9c615a83881680841acd64ac9c48920268905d647fb6ffe9ae46deb8405f",
+          "bytes": 316174,
+          "vertices": 2917,
+          "triangles": 4366
+        },
+        {
+          "element": "FJ3462",
+          "concept": "FMA70487",
+          "headerConcept": "FMA70487",
+          "sourceName": "Anterior division of left renal artery",
+          "sha256": "d8b43c1022fc6b8a521164564f39a9040df97b7c4d720f5ccffacbec3f94aee3",
+          "bytes": 88451,
+          "vertices": 758,
+          "triangles": 1510
+        },
+        {
+          "element": "FJ3463",
+          "concept": "FMA70487",
+          "headerConcept": "FMA70487",
+          "sourceName": "Anterior division of left renal artery",
+          "sha256": "8db02d11ae4a44a6e36a874727f370ae572115192f7772d1443353f18da353bb",
+          "bytes": 178148,
+          "vertices": 1471,
+          "triangles": 2932
+        },
+        {
+          "element": "FJ3573",
+          "concept": "FMA70489",
+          "headerConcept": "FMA70489",
+          "sourceName": "Posterior division of right renal artery",
+          "sha256": "1e5feab75d91bbf0f682787c69b76187a8e477c76e7b76016bbdba1db60cfb80",
+          "bytes": 31669,
+          "vertices": 297,
+          "triangles": 496
+        },
+        {
+          "element": "FJ3574",
+          "concept": "FMA70489",
+          "headerConcept": "FMA70489",
+          "sourceName": "Posterior division of right renal artery",
+          "sha256": "a0c7cbbeef7e4f971c3a2846178ef63d4ed7c0277ddae48a5914ed2afacaed0c",
+          "bytes": 27032,
+          "vertices": 253,
+          "triangles": 428
+        },
+        {
+          "element": "FJ3575",
+          "concept": "FMA70489",
+          "headerConcept": "FMA70489",
+          "sourceName": "Posterior division of right renal artery",
+          "sha256": "e8cdf48a0a1f4f1aee5a5dbfd54b40f37c9ad29283e7310cd4adb5415ecfc3af",
+          "bytes": 113344,
+          "vertices": 994,
+          "triangles": 1850
+        },
+        {
+          "element": "FJ3473",
+          "concept": "FMA70490",
+          "headerConcept": "FMA70490",
+          "sourceName": "Posterior division of left renal artery",
+          "sha256": "41d9dd828aa260e73e8a33f849f0d997afd9dc5f1fee71a034795bc714fee9a8",
+          "bytes": 26208,
+          "vertices": 288,
+          "triangles": 334
+        },
+        {
+          "element": "FJ3474",
+          "concept": "FMA70490",
+          "headerConcept": "FMA70490",
+          "sourceName": "Posterior division of left renal artery",
+          "sha256": "a40d08c338db825c14f184a0a97516e48cc2b216a534f09ae8152307e1f0e105",
+          "bytes": 16831,
+          "vertices": 174,
+          "triangles": 254
+        },
+        {
+          "element": "FJ3475",
+          "concept": "FMA70490",
+          "headerConcept": "FMA70490",
+          "sourceName": "Posterior division of left renal artery",
+          "sha256": "2b6e1e3a70aea444d05009c831c39a8bae6226eba0f4268394944c7b2379697e",
+          "bytes": 25226,
+          "vertices": 244,
+          "triangles": 398
+        }
+      ]
+    },
+    {
+      "id": "inferior-vena-cava",
+      "fma": "FMA10951",
+      "kind": "vein",
+      "runtimeTriangles": 616,
+      "concepts": [
+        "FMA10951"
+      ],
+      "sourceName": "inferior vena cava",
+      "elements": [
+        {
+          "element": "FJ3659",
+          "concept": "FMA10951",
+          "headerConcept": "FMA10951",
+          "sourceName": "Inferior vena cava",
+          "sha256": "e795b17885e03eb14174a527ebc0467b003fd1dc3e5b96c7a327e21b3dc4fe5b",
+          "bytes": 107088,
+          "vertices": 968,
+          "triangles": 1670
+        },
+        {
+          "element": "FJ3441",
+          "concept": "FMA10951",
+          "headerConcept": "FMA10951",
+          "sourceName": "Inferior vena cava",
+          "sha256": "22cee979046d6ade5883a10e2eca4b08222403e7e1adf5802973a21ee6b44b97",
+          "bytes": 88638,
+          "vertices": 793,
+          "triangles": 1410
+        }
+      ]
+    },
+    {
+      "id": "renal-veins",
+      "fma": "FMA14334",
+      "kind": "vein",
+      "runtimeTriangles": 4268,
+      "concepts": [
+        "FMA14335",
+        "FMA14336"
+      ],
+      "sourceName": "right and left renal veins",
+      "elements": [
+        {
+          "element": "FJ3577",
+          "concept": "FMA14335",
+          "headerConcept": "FMA14335",
+          "sourceName": "Right renal vein",
+          "sha256": "99c61ccf20105b8ffac8c35c4307af9d5ef917e12060803408d42ebf5e4d112b",
+          "bytes": 19111,
+          "vertices": 172,
+          "triangles": 332
+        },
+        {
+          "element": "FJ3578",
+          "concept": "FMA14335",
+          "headerConcept": "FMA14335",
+          "sourceName": "Right renal vein",
+          "sha256": "2229e87d6ffe72c5733ae433be6c2eed74a62736e2aa75f2081b9e412cb692b6",
+          "bytes": 387962,
+          "vertices": 3865,
+          "triangles": 4682
+        },
+        {
+          "element": "FJ3477",
+          "concept": "FMA14336",
+          "headerConcept": "FMA14336",
+          "sourceName": "Left renal vein",
+          "sha256": "938dabbef109d83bacb61fb592ab14ac2e51a8306ce207d4012af816a9557a55",
+          "bytes": 38139,
+          "vertices": 334,
+          "triangles": 652
+        },
+        {
+          "element": "FJ3478",
+          "concept": "FMA14336",
+          "headerConcept": "FMA14336",
+          "sourceName": "Left renal vein",
+          "sha256": "ba1a05f51e9bcaa538edf21c5e230d578757d611b3864506d20c0274d98bde13",
+          "bytes": 356025,
+          "vertices": 3657,
+          "triangles": 4260
+        }
+      ]
+    },
+    {
+      "id": "portal-vein",
+      "fma": "FMA71904",
+      "kind": "vein",
+      "runtimeTriangles": 1188,
+      "concepts": [
+        "FMA71904",
+        "FMA82695",
+        "FMA82697"
+      ],
+      "sourceName": "pre-hepatic portal vein and trunks of right and left portal veins",
+      "elements": [
+        {
+          "element": "FJ3082",
+          "concept": "FMA71904",
+          "headerConcept": "FMA71904",
+          "sourceName": "Pre-hepatic portal vein",
+          "sha256": "1e13838c7d06cb0d21c8d3056ef0fb8e4edf1880164514043f6d4473d1186fae",
+          "bytes": 222078,
+          "vertices": 1793,
+          "triangles": 3582
+        },
+        {
+          "element": "FJ3122",
+          "concept": "FMA82695",
+          "headerConcept": "FMA82695",
+          "sourceName": "Trunk of right portal vein",
+          "sha256": "b94a63fa57e09b7cdcdfac945e7d5a62f95d46da4b74a9edde0e16c3a3160b72",
+          "bytes": 11428,
+          "vertices": 105,
+          "triangles": 206
+        },
+        {
+          "element": "FJ3102",
+          "concept": "FMA82697",
+          "headerConcept": "FMA82697",
+          "sourceName": "Trunk of left portal vein",
+          "sha256": "eae69001b464bd8bf3dbb3f080df7fe7784c1824e52274991529df0eef0fcc29",
+          "bytes": 42506,
+          "vertices": 367,
+          "triangles": 730
+        }
+      ]
+    },
+    {
+      "id": "splenic-mesenteric-veins",
+      "fma": "FMA50736",
+      "kind": "vein",
+      "runtimeTriangles": 1374,
+      "concepts": [
+        "FMA14331",
+        "FMA14332",
+        "FMA15391"
+      ],
+      "sourceName": "splenic, superior mesenteric and inferior mesenteric veins",
+      "elements": [
+        {
+          "element": "FJ3641",
+          "concept": "FMA14331",
+          "headerConcept": "FMA14331",
+          "sourceName": "Splenic vein",
+          "sha256": "6e21d97501840a864454e0dca8e9ebec09ae7cf0b326604d709ddf8b6a9c4327",
+          "bytes": 87010,
+          "vertices": 922,
+          "triangles": 1144
+        },
+        {
+          "element": "FJ3647",
+          "concept": "FMA14332",
+          "headerConcept": "FMA14332",
+          "sourceName": "Superior mesenteric vein",
+          "sha256": "5868700f6e29d733743db75fbcb330debd19863cf9234227b549ebf0cf08b4b0",
+          "bytes": 49230,
+          "vertices": 489,
+          "triangles": 702
+        },
+        {
+          "element": "FJ3443",
+          "concept": "FMA15391",
+          "headerConcept": "FMA15391",
+          "sourceName": "Inferior mesenteric vein",
+          "sha256": "1270139cf44e5572936a49047401458876d8065635af99d61d95f842209eecdb",
+          "bytes": 65798,
+          "vertices": 574,
+          "triangles": 1108
+        }
+      ]
+    },
+    {
+      "id": "common-iliac-arteries",
+      "fma": "FMA69382",
+      "kind": "artery",
+      "runtimeTriangles": 466,
+      "concepts": [
+        "FMA69383",
+        "FMA69384"
+      ],
+      "sourceName": "trunks of right and left common iliac arteries",
+      "elements": [
+        {
+          "element": "FJ3565",
+          "concept": "FMA69383",
+          "headerConcept": "FMA69383",
+          "sourceName": "Trunk of right common iliac artery",
+          "sha256": "f382d4aa7f240e3aafc30142e59c9018eb8181dbb112755e1b93a9e9df345372",
+          "bytes": 12559,
+          "vertices": 117,
+          "triangles": 220
+        },
+        {
+          "element": "FJ3464",
+          "concept": "FMA69384",
+          "headerConcept": "FMA69384",
+          "sourceName": "Trunk of left common iliac artery",
+          "sha256": "7d1847243fd661ca54ba2f5c9dd0edeee0a0d2536b032ab9250a8fb3368609d1",
+          "bytes": 13920,
+          "vertices": 128,
+          "triangles": 248
+        }
+      ]
+    },
+    {
+      "id": "internal-iliac-arteries",
+      "fma": "FMA18809",
+      "kind": "artery",
+      "runtimeTriangles": 520,
+      "concepts": [
+        "FMA18809",
+        "FMA70187"
+      ],
+      "sourceName": "right and left internal iliac arteries",
+      "elements": [
+        {
+          "element": "FJ3569",
+          "concept": "FMA18809",
+          "headerConcept": "FMA18809",
+          "sourceName": "Right internal iliac artery",
+          "sha256": "83a1ab60bd5d821465b633b5fdd167d2d8c8c08d50b6174edc62cbdbdda1fd98",
+          "bytes": 19404,
+          "vertices": 201,
+          "triangles": 276
+        },
+        {
+          "element": "FJ3468",
+          "concept": "FMA70187",
+          "headerConcept": "FMA70187",
+          "sourceName": "Trunk of left internal iliac artery",
+          "sha256": "d74c03dc33b4e752790cf868167d1a8d98b6aeff124303f53a67da48ea2f11f7",
+          "bytes": 18533,
+          "vertices": 194,
+          "triangles": 270
+        }
+      ]
+    },
+    {
+      "id": "external-iliac-arteries",
+      "fma": "FMA69389",
+      "kind": "artery",
+      "runtimeTriangles": 828,
+      "concepts": [
+        "FMA69390",
+        "FMA69391"
+      ],
+      "sourceName": "trunks proper of right and left external iliac arteries",
+      "elements": [
+        {
+          "element": "FJ3567",
+          "concept": "FMA69390",
+          "headerConcept": "FMA69390",
+          "sourceName": "Trunk proper of right external iliac artery",
+          "sha256": "d0e2da1ed861020de297ef5d496b29a7a8e4c6388e886654c0a97f2cd482712f",
+          "bytes": 23687,
+          "vertices": 214,
+          "triangles": 396
+        },
+        {
+          "element": "FJ3466",
+          "concept": "FMA69391",
+          "headerConcept": "FMA69391",
+          "sourceName": "Trunk proper of left external iliac artery",
+          "sha256": "a5ac78c639f42a2a0abf9f359d778dece6f804f112bbc5832979299bcafeb060",
+          "bytes": 26656,
+          "vertices": 236,
+          "triangles": 462
+        }
+      ]
+    },
+    {
+      "id": "common-iliac-veins",
+      "fma": "FMA14333",
+      "kind": "vein",
+      "runtimeTriangles": 770,
+      "concepts": [
+        "FMA21387",
+        "FMA21388"
+      ],
+      "sourceName": "right and left common iliac veins",
+      "elements": [
+        {
+          "element": "FJ3566",
+          "concept": "FMA21387",
+          "headerConcept": "FMA21387",
+          "sourceName": "Right common iliac vein",
+          "sha256": "fd40af96c7cb3bab7903fce9202f5e1edb8f52b5f60ce574c4fb6fef6fac236d",
+          "bytes": 21656,
+          "vertices": 199,
+          "triangles": 358
+        },
+        {
+          "element": "FJ3465",
+          "concept": "FMA21388",
+          "headerConcept": "FMA21388",
+          "sourceName": "Left common iliac vein",
+          "sha256": "ba800af42f2dec96764d29a2a693a0f648e0585d5f41b1694b5e312d743de06a",
+          "bytes": 26238,
+          "vertices": 244,
+          "triangles": 430
+        }
+      ]
+    },
+    {
+      "id": "internal-iliac-veins",
+      "fma": "FMA18884",
+      "kind": "vein",
+      "runtimeTriangles": 1326,
+      "concepts": [
+        "FMA18887",
+        "FMA18888"
+      ],
+      "sourceName": "right and left internal iliac veins",
+      "elements": [
+        {
+          "element": "FJ3570",
+          "concept": "FMA18887",
+          "headerConcept": "FMA18887",
+          "sourceName": "Right internal iliac vein",
+          "sha256": "e31f86121ab7f23c75ed85648928a436895b3212cfc345f8e9bbac1aea427462",
+          "bytes": 15026,
+          "vertices": 157,
+          "triangles": 216
+        },
+        {
+          "element": "FJ3571",
+          "concept": "FMA18887",
+          "headerConcept": "FMA18887",
+          "sourceName": "Right internal iliac vein",
+          "sha256": "da1db84ababc7334c5c087b95e47b90c3c8f42f75da6eb8c21d05001c143dcc3",
+          "bytes": 13190,
+          "vertices": 134,
+          "triangles": 202
+        },
+        {
+          "element": "FJ3572",
+          "concept": "FMA18887",
+          "headerConcept": "FMA18887",
+          "sourceName": "Right internal iliac vein",
+          "sha256": "7fbaadc88a992c501e8d935361e82a7a1693ca5753eb93035b351bcb364a0354",
+          "bytes": 13856,
+          "vertices": 149,
+          "triangles": 192
+        },
+        {
+          "element": "FJ3607",
+          "concept": "FMA18887",
+          "headerConcept": "FMA18887",
+          "sourceName": "Right internal iliac vein",
+          "sha256": "dc5a550333bebf129d52c67cdc8cce95083ce689b2a9cf87b9e4d39a6f26984f",
+          "bytes": 7135,
+          "vertices": 79,
+          "triangles": 94
+        },
+        {
+          "element": "FJ3608",
+          "concept": "FMA18887",
+          "headerConcept": "FMA18887",
+          "sourceName": "Right internal iliac vein",
+          "sha256": "15bffd4f0ce9065192a5a144121d19ccea2618f5f3ff45ae4c5b989593a75890",
+          "bytes": 11720,
+          "vertices": 111,
+          "triangles": 202
+        },
+        {
+          "element": "FJ3609",
+          "concept": "FMA18887",
+          "headerConcept": "FMA18887",
+          "sourceName": "Right internal iliac vein",
+          "sha256": "367e9038f795ba1a69a2c0c1e83c771220f8e9e4fe780c71fde68fb0affa3469",
+          "bytes": 6157,
+          "vertices": 70,
+          "triangles": 74
+        },
+        {
+          "element": "FJ3469",
+          "concept": "FMA18888",
+          "headerConcept": "FMA18888",
+          "sourceName": "Left internal iliac vein",
+          "sha256": "ba3da6ab9b93035420ed399b1957045b8bd28a1c101b56a2b6f057e3bb937624",
+          "bytes": 13192,
+          "vertices": 134,
+          "triangles": 208
+        },
+        {
+          "element": "FJ3470",
+          "concept": "FMA18888",
+          "headerConcept": "FMA18888",
+          "sourceName": "Left internal iliac vein",
+          "sha256": "0c8e2aaf5259271aced8cbecbfe21d1ef0e6a9d316b302dd7db054be4ed1eb7b",
+          "bytes": 11569,
+          "vertices": 121,
+          "triangles": 176
+        },
+        {
+          "element": "FJ3471",
+          "concept": "FMA18888",
+          "headerConcept": "FMA18888",
+          "sourceName": "Left internal iliac vein",
+          "sha256": "e72fdabe7396a8164f9577a769b68c37dcb07cf740dda8b0db40b0742eddc452",
+          "bytes": 13052,
+          "vertices": 144,
+          "triangles": 180
+        }
+      ]
+    },
+    {
+      "id": "external-iliac-veins",
+      "fma": "FMA18883",
+      "kind": "vein",
+      "runtimeTriangles": 1280,
+      "concepts": [
+        "FMA18885",
+        "FMA18886"
+      ],
+      "sourceName": "right and left external iliac veins",
+      "elements": [
+        {
+          "element": "FJ3568",
+          "concept": "FMA18885",
+          "headerConcept": "FMA18885",
+          "sourceName": "Right external iliac vein",
+          "sha256": "56977387f707ccae76d5f6fc42a887419a2fb2833d2949e0b961fbecea4d9590",
+          "bytes": 44178,
+          "vertices": 396,
+          "triangles": 724
+        },
+        {
+          "element": "FJ3484",
+          "concept": "FMA18886",
+          "headerConcept": "FMA18886",
+          "sourceName": "Left external iliac vein",
+          "sha256": "78e0d283c47f9e28608a29a01e491f12a7b8473ab50634d6635bbc5b8d7dda0c",
+          "bytes": 41162,
+          "vertices": 376,
+          "triangles": 670
+        }
+      ]
+    },
+    {
+      "id": "femoral-arteries",
+      "fma": "FMA20730",
+      "kind": "artery",
+      "runtimeTriangles": 614,
+      "concepts": [
+        "FMA20731",
+        "FMA20732"
+      ],
+      "sourceName": "trunks of right and left femoral arteries",
+      "elements": [
+        {
+          "element": "FJ2143",
+          "concept": "FMA20731",
+          "headerConcept": "FMA20731",
+          "sourceName": "Trunk of right femoral artery",
+          "sha256": "38a157165e0feb068d98087e14dcea2e6307217dc4b82c3493d2ff9dad7ef51d",
+          "bytes": 44153,
+          "vertices": 380,
+          "triangles": 752
+        },
+        {
+          "element": "FJ2074",
+          "concept": "FMA20732",
+          "headerConcept": "FMA20732",
+          "sourceName": "Trunk of left femoral artery",
+          "sha256": "7ef6f5b6ee93e4e2282c3c2c3a3fe88c72f035a4491b5e7f24051b6af5f26bad",
+          "bytes": 42935,
+          "vertices": 373,
+          "triangles": 740
+        }
+      ]
+    },
+    {
+      "id": "deep-femoral-arteries",
+      "fma": "FMA20741",
+      "kind": "artery",
+      "runtimeTriangles": 2454,
+      "concepts": [
+        "FMA20796",
+        "FMA20797"
+      ],
+      "sourceName": "right and left deep femoral arteries",
+      "elements": [
+        {
+          "element": "FJ2203",
+          "concept": "FMA20796",
+          "headerConcept": "FMA20796",
+          "sourceName": "Right deep femoral artery",
+          "sha256": "ed385313f3b3a473f74a700695a43eeb7b4726f4e08412f4ddf6fae7edcbc25b",
+          "bytes": 389850,
+          "vertices": 3068,
+          "triangles": 6132
+        },
+        {
+          "element": "FJ2094",
+          "concept": "FMA20797",
+          "headerConcept": "FMA20797",
+          "sourceName": "Left deep femoral artery",
+          "sha256": "882cfa9b283f33d8346d89fb2d350d1b4ce9ed9f8327048cde4b5986c30de828",
+          "bytes": 387046,
+          "vertices": 3071,
+          "triangles": 6138
+        }
+      ]
+    },
+    {
+      "id": "popliteal-arteries",
+      "fma": "FMA77155",
+      "kind": "artery",
+      "runtimeTriangles": 6702,
+      "concepts": [
+        "FMA77380",
+        "FMA77381"
+      ],
+      "sourceName": "right and left popliteal arteries",
+      "elements": [
+        {
+          "element": "FJ2170",
+          "concept": "FMA77380",
+          "headerConcept": "FMA77380",
+          "sourceName": "Right popliteal artery",
+          "sha256": "af87bf9096eb32020fab5d4e286d7f9de07f83b362c3770d581902f952dede09",
+          "bytes": 1087649,
+          "vertices": 8391,
+          "triangles": 16778
+        },
+        {
+          "element": "FJ2086",
+          "concept": "FMA77381",
+          "headerConcept": "FMA77381",
+          "sourceName": "Left popliteal artery",
+          "sha256": "e5179b8abf361b35d00fe42def164ea43e8b3e4a5f3aef8ab487cd9958a6893b",
+          "bytes": 1076351,
+          "vertices": 8368,
+          "triangles": 16732
+        }
+      ]
+    },
+    {
+      "id": "anterior-tibial-arteries",
+      "fma": "FMA66420",
+      "kind": "artery",
+      "runtimeTriangles": 6948,
+      "concepts": [
+        "FMA66424",
+        "FMA66425"
+      ],
+      "sourceName": "trunks of right and left anterior tibial arteries",
+      "elements": [
+        {
+          "element": "FJ2130",
+          "concept": "FMA66424",
+          "headerConcept": "FMA66424",
+          "sourceName": "Trunk of right anterior tibial artery",
+          "sha256": "b1bc72c0e656233bcebcfb95c8b9e9c96e5480ea8b48277e09c9b376d29ff924",
+          "bytes": 1125758,
+          "vertices": 8669,
+          "triangles": 17334
+        },
+        {
+          "element": "FJ2065",
+          "concept": "FMA66425",
+          "headerConcept": "FMA66425",
+          "sourceName": "Trunk of left anterior tibial artery",
+          "sha256": "553a4958fe208477580283466d504880ff5b4a4467a66ad500cec160ac9d8a12",
+          "bytes": 1122066,
+          "vertices": 8708,
+          "triangles": 17412
+        }
+      ]
+    },
+    {
+      "id": "posterior-tibial-arteries",
+      "fma": "FMA66421",
+      "kind": "artery",
+      "runtimeTriangles": 5268,
+      "concepts": [
+        "FMA66426",
+        "FMA66427"
+      ],
+      "sourceName": "trunks of right and left posterior tibial arteries",
+      "elements": [
+        {
+          "element": "FJ2172",
+          "concept": "FMA66426",
+          "headerConcept": "FMA66426",
+          "sourceName": "Trunk of right posterior tibial artery",
+          "sha256": "5a938542bd83f382642ea8865add7c4b4b345f920ebea3b07ad15b56470cb666",
+          "bytes": 852779,
+          "vertices": 6601,
+          "triangles": 13130
+        },
+        {
+          "element": "FJ2087",
+          "concept": "FMA66427",
+          "headerConcept": "FMA66427",
+          "sourceName": "Trunk of left posterior tibial artery",
+          "sha256": "fc5e4cbd73cf0caeb175220f8923f2b997870c2a86f201ce2c9971b318fea784",
+          "bytes": 853297,
+          "vertices": 6658,
+          "triangles": 13218
+        }
+      ]
+    },
+    {
+      "id": "fibular-arteries",
+      "fma": "FMA43921",
+      "kind": "artery",
+      "runtimeTriangles": 4838,
+      "concepts": [
+        "FMA43922",
+        "FMA43923"
+      ],
+      "sourceName": "right and left peroneal arteries",
+      "elements": [
+        {
+          "element": "FJ2197",
+          "concept": "FMA43922",
+          "headerConcept": "FMA43922",
+          "sourceName": "Right peroneal artery",
+          "sha256": "b01f65b60ca9f752d5718dbca11c8e744a115e1d5b97faff418831269d39acee",
+          "bytes": 782676,
+          "vertices": 6046,
+          "triangles": 12088
+        },
+        {
+          "element": "FJ2093",
+          "concept": "FMA43923",
+          "headerConcept": "FMA43923",
+          "sourceName": "Left peroneal artery",
+          "sha256": "860f2a7e4e72fdfb164ea4d657d5d76452ae89945bea586703a42056892c994b",
+          "bytes": 777754,
+          "vertices": 6056,
+          "triangles": 12108
+        }
+      ]
+    },
+    {
+      "id": "foot-arteries",
+      "fma": "FMA43916",
+      "kind": "artery",
+      "runtimeTriangles": 936,
+      "concepts": [
+        "FMA43916",
+        "FMA43917",
+        "FMA43943",
+        "FMA43944"
+      ],
+      "sourceName": "dorsalis pedis arteries and plantar arches",
+      "elements": [
+        {
+          "element": "FJ2055",
+          "concept": "FMA43916",
+          "headerConcept": "FMA43916",
+          "sourceName": "Right dorsalis pedis artery",
+          "sha256": "73655616b15033bcbfba54494d722f410b10be3d9e78980c8c2e8544351bea91",
+          "bytes": 65118,
+          "vertices": 553,
+          "triangles": 1102
+        },
+        {
+          "element": "FJ2073",
+          "concept": "FMA43917",
+          "headerConcept": "FMA43917",
+          "sourceName": "Left dorsalis pedis artery",
+          "sha256": "1442a51f1d4fc15f25eab1b7f2b20ac02c81950ca79df28eaa5922677e0d5989",
+          "bytes": 67266,
+          "vertices": 576,
+          "triangles": 1148
+        },
+        {
+          "element": "FJ2169",
+          "concept": "FMA43943",
+          "headerConcept": "FMA43943",
+          "sourceName": "Right plantar arch",
+          "sha256": "18d6adc376f5c3d1190cc677ce126b13a9d3a50e6bc548787aa3f44b7be9bb85",
+          "bytes": 73368,
+          "vertices": 622,
+          "triangles": 1230
+        },
+        {
+          "element": "FJ2085",
+          "concept": "FMA43944",
+          "headerConcept": "FMA43944",
+          "sourceName": "Left plantar arch",
+          "sha256": "99cd4b3b936d390e183410a88164bfdaf3aea5b5ec43698fd3c13f5dbc96add2",
+          "bytes": 70984,
+          "vertices": 607,
+          "triangles": 1200
+        }
+      ]
+    },
+    {
+      "id": "femoral-veins",
+      "fma": "FMA21185",
+      "kind": "vein",
+      "runtimeTriangles": 618,
+      "concepts": [
+        "FMA21188",
+        "FMA21189"
+      ],
+      "sourceName": "right and left femoral veins",
+      "elements": [
+        {
+          "element": "FJ2144",
+          "concept": "FMA21188",
+          "headerConcept": "FMA21188",
+          "sourceName": "Right femoral vein",
+          "sha256": "2efbb12df7ecc014df3266c2e4ec0c0bd55e3af1a2f4438f2682e543313e1ea6",
+          "bytes": 38686,
+          "vertices": 336,
+          "triangles": 658
+        },
+        {
+          "element": "FJ2102",
+          "concept": "FMA21189",
+          "headerConcept": "FMA21189",
+          "sourceName": "Left femoral vein",
+          "sha256": "81ac633f5ec012628cdecd371d92b18cf478b85948f6dfad64d07d04ccebdc8c",
+          "bytes": 38085,
+          "vertices": 332,
+          "triangles": 658
+        }
+      ]
+    },
+    {
+      "id": "popliteal-veins",
+      "fma": "FMA44327",
+      "kind": "vein",
+      "runtimeTriangles": 6650,
+      "concepts": [
+        "FMA44328",
+        "FMA44329"
+      ],
+      "sourceName": "right and left popliteal veins",
+      "elements": [
+        {
+          "element": "FJ2171",
+          "concept": "FMA44328",
+          "headerConcept": "FMA44328",
+          "sourceName": "Right popliteal vein",
+          "sha256": "d12f25d813fd368b7d4cfda5cfe061869a7b9341d23ff49d6efb73fede83a272",
+          "bytes": 1089650,
+          "vertices": 8505,
+          "triangles": 16660
+        },
+        {
+          "element": "FJ2117",
+          "concept": "FMA44329",
+          "headerConcept": "FMA44329",
+          "sourceName": "Left popliteal vein",
+          "sha256": "18ee61c4e165a2dc6b7f258528deaf74a745d92f936a30d579a499c0c70a3a29",
+          "bytes": 1075896,
+          "vertices": 8433,
+          "triangles": 16592
+        }
+      ]
+    },
+    {
+      "id": "great-saphenous-veins",
+      "fma": "FMA21376",
+      "kind": "vein",
+      "runtimeTriangles": 12014,
+      "concepts": [
+        "FMA21379",
+        "FMA21380"
+      ],
+      "sourceName": "right and left great saphenous veins",
+      "elements": [
+        {
+          "element": "FJ2145",
+          "concept": "FMA21379",
+          "headerConcept": "FMA21379",
+          "sourceName": "Right great saphenous vein",
+          "sha256": "ef8d01ca0259213a168a28d8a1a00699aff219d1e767c06a9d50a3703d98f652",
+          "bytes": 2029016,
+          "vertices": 15163,
+          "triangles": 30036
+        },
+        {
+          "element": "FJ2103",
+          "concept": "FMA21380",
+          "headerConcept": "FMA21380",
+          "sourceName": "Left great saphenous vein",
+          "sha256": "0bc8b17acd8630e229cc69387fde33c22a5ed8e7ceea037063ade52c05f626d5",
+          "bytes": 2016874,
+          "vertices": 15199,
+          "triangles": 30040
+        }
+      ]
+    },
+    {
+      "id": "small-saphenous-veins",
+      "fma": "FMA44333",
+      "kind": "vein",
+      "runtimeTriangles": 6532,
+      "concepts": [
+        "FMA44334",
+        "FMA44335"
+      ],
+      "sourceName": "right and left small saphenous veins",
+      "elements": [
+        {
+          "element": "FJ2176",
+          "concept": "FMA44334",
+          "headerConcept": "FMA44334",
+          "sourceName": "Right small saphenous vein",
+          "sha256": "156a8d2a52252be376b672e1f4622f2c23005679e02c96be38ed4b039d566b5a",
+          "bytes": 1061030,
+          "vertices": 8171,
+          "triangles": 16332
+        },
+        {
+          "element": "FJ2121",
+          "concept": "FMA44335",
+          "headerConcept": "FMA44335",
+          "sourceName": "Left small saphenous vein",
+          "sha256": "5ca6f352a59a73a8bc654d912a788532b060fc517e5edd5afcd69112d8a3cfc8",
+          "bytes": 1053371,
+          "vertices": 8170,
+          "triangles": 16336
+        }
+      ]
+    }
+  ]
+}

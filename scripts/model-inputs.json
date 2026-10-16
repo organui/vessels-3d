@@ -1,0 +1,1224 @@
+{
+  "mirrorCommit": "fd527e6f4daf732fd814314d9257df5877b844bc",
+  "mapping": {
+    "file": "docs/model-source/FMA2Obj-4.3.tsv",
+    "sha256": "c3d16c891016da13447de2fc3241d05d92e8f9dc460e363233c03f420b935d4f"
+  },
+  "objects": [
+    {
+      "id": "FJ3413",
+      "file": "FJ3413.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3413_BP20272_FMA3736_Ascending%20aorta.obj",
+      "sha256": "6903aed5746a4e210ebd7c0a15bba69707b2ef29398b97903bc2815c2f82c2bc",
+      "bytes": 24321,
+      "mirrorPath": "meshes/FJ3413_BP20272_FMA3736_Ascending aorta.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3413_BP20272_FMA3736_Ascending%20aorta.obj"
+    },
+    {
+      "id": "FJ3411",
+      "file": "FJ3411.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3411_BP23913_FMA3768_Arch%20of%20aorta.obj",
+      "sha256": "6b72258bcc413abbcf6193e11575933d08f3ba960b52a7b8462a7b0ccb4607eb",
+      "bytes": 41378,
+      "mirrorPath": "meshes/FJ3411_BP23913_FMA3768_Arch of aorta.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3411_BP23913_FMA3768_Arch%20of%20aorta.obj"
+    },
+    {
+      "id": "FJ3427",
+      "file": "FJ3427.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3427_BP23707_FMA3784_Descending%20aorta.obj",
+      "sha256": "5d461cda0a71eaa0136f3a13bf1938ad7660ee3e4cc1750eb4ac865c91ba4668",
+      "bytes": 288865,
+      "mirrorPath": "meshes/FJ3427_BP23707_FMA3784_Descending aorta.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3427_BP23707_FMA3784_Descending%20aorta.obj"
+    },
+    {
+      "id": "FJ4715",
+      "file": "FJ4715.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ4715_BP23234_FMA69316_Trunk%20of%20brachiocephalic%20artery.obj",
+      "sha256": "588bc4140d237a2559bda50f04418b6c9fe4b7d203593be67fb25b4855d37ffe",
+      "bytes": 24660,
+      "mirrorPath": "meshes/FJ4715_BP23234_FMA69316_Trunk of brachiocephalic artery.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ4715_BP23234_FMA69316_Trunk%20of%20brachiocephalic%20artery.obj"
+    },
+    {
+      "id": "FJ1937",
+      "file": "FJ1937.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ1937_BP23184_FMA76303_Trunk%20of%20right%20internal%20thoracic%20artery.obj",
+      "sha256": "9206a509aa4dd9148554e083424354789b6e254257c0b7c0ec8e4a9eb6d95aaf",
+      "bytes": 219589,
+      "mirrorPath": "meshes/FJ1937_BP23184_FMA76303_Trunk of right internal thoracic artery.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ1937_BP23184_FMA76303_Trunk%20of%20right%20internal%20thoracic%20artery.obj"
+    },
+    {
+      "id": "FJ1972",
+      "file": "FJ1972.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ1972_BP23462_FMA76304_Trunk%20of%20left%20internal%20thoracic%20artery.obj",
+      "sha256": "57672a886f56a28fee35c8f345a9309ba1e3f69bea208543bd1f4fa22407200c",
+      "bytes": 224198,
+      "mirrorPath": "meshes/FJ1972_BP23462_FMA76304_Trunk of left internal thoracic artery.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ1972_BP23462_FMA76304_Trunk%20of%20left%20internal%20thoracic%20artery.obj"
+    },
+    {
+      "id": "FJ2966",
+      "file": "FJ2966.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ2966_BP23682_FMA8612_Pulmonary%20trunk.obj",
+      "sha256": "21cd36edc646954c795e8bd658f97448953b3e09d3e0c8b78f78711d7c9ef776",
+      "bytes": 89276,
+      "mirrorPath": "meshes/FJ2966_BP23682_FMA8612_Pulmonary trunk.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ2966_BP23682_FMA8612_Pulmonary%20trunk.obj"
+    },
+    {
+      "id": "FJ3019",
+      "file": "FJ3019.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3019_BP23698_FMA8613_Trunk%20of%20right%20pulmonary%20artery.obj",
+      "sha256": "5d11cd93c4fe142f059681e107bc174d53c1baf7288861a6b487df9b6a16ff58",
+      "bytes": 39395,
+      "mirrorPath": "meshes/FJ3019_BP23698_FMA8613_Trunk of right pulmonary artery.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3019_BP23698_FMA8613_Trunk%20of%20right%20pulmonary%20artery.obj"
+    },
+    {
+      "id": "FJ2924",
+      "file": "FJ2924.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ2924_BP23660_FMA8614_Trunk%20of%20left%20pulmonary%20artery.obj",
+      "sha256": "46df23e8f3d0c95037ed4ed2daa9ce3c3fdb52098d5158992602120f63223b38",
+      "bytes": 341905,
+      "mirrorPath": "meshes/FJ2924_BP23660_FMA8614_Trunk of left pulmonary artery.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ2924_BP23660_FMA8614_Trunk%20of%20left%20pulmonary%20artery.obj"
+    },
+    {
+      "id": "FJ3020",
+      "file": "FJ3020.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3020_BP23802_FMA50302_Trunk%20of%20right%20superior%20pulmonary%20vein.obj",
+      "sha256": "1950414c9d2faa611ad619cd34f4adf658265b3e26146a8c403018c426215f67",
+      "bytes": 18885,
+      "mirrorPath": "meshes/FJ3020_BP23802_FMA50302_Trunk of right superior pulmonary vein.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3020_BP23802_FMA50302_Trunk%20of%20right%20superior%20pulmonary%20vein.obj"
+    },
+    {
+      "id": "FJ3040",
+      "file": "FJ3040.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3040_BP22871_FMA50303_Trunk%20of%20right%20inferior%20pulmonary%20vein.obj",
+      "sha256": "da6674074ac28a735013aaefa030685719b7fcd61ca787c8f909af7f0a9bc6a3",
+      "bytes": 11692,
+      "mirrorPath": "meshes/FJ3040_BP22871_FMA50303_Trunk of right inferior pulmonary vein.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3040_BP22871_FMA50303_Trunk%20of%20right%20inferior%20pulmonary%20vein.obj"
+    },
+    {
+      "id": "FJ2925",
+      "file": "FJ2925.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ2925_BP22893_FMA50305_Trunk%20of%20left%20superior%20pulmonary%20vein.obj",
+      "sha256": "579561c14121856fb0518e33d97ba7d39a533fa13bfb2931beab1d90e0a08192",
+      "bytes": 23624,
+      "mirrorPath": "meshes/FJ2925_BP22893_FMA50305_Trunk of left superior pulmonary vein.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ2925_BP22893_FMA50305_Trunk%20of%20left%20superior%20pulmonary%20vein.obj"
+    },
+    {
+      "id": "FJ2933",
+      "file": "FJ2933.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ2933_BP22893_FMA50305_Trunk%20of%20left%20superior%20pulmonary%20vein.obj",
+      "sha256": "f5999e21ab13202781be359397d9b78069da0dfba97df702803f5878d7b91330",
+      "bytes": 27104,
+      "mirrorPath": "meshes/FJ2933_BP22893_FMA50305_Trunk of left superior pulmonary vein.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ2933_BP22893_FMA50305_Trunk%20of%20left%20superior%20pulmonary%20vein.obj"
+    },
+    {
+      "id": "FJ2944",
+      "file": "FJ2944.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ2944_BP22896_FMA50306_Trunk%20of%20left%20inferior%20pulmonary%20vein.obj",
+      "sha256": "6e463bf46a0ee86eab57a4456355b64992b6996d5b1dd9a1273c3c1cd521fec8",
+      "bytes": 17466,
+      "mirrorPath": "meshes/FJ2944_BP22896_FMA50306_Trunk of left inferior pulmonary vein.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ2944_BP22896_FMA50306_Trunk%20of%20left%20inferior%20pulmonary%20vein.obj"
+    },
+    {
+      "id": "FJ2950",
+      "file": "FJ2950.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ2950_BP22896_FMA50306_Trunk%20of%20left%20inferior%20pulmonary%20vein.obj",
+      "sha256": "7fa6712e3970995e7439eb9888f5bde4886b56cb934ed90407170006a8638fe4",
+      "bytes": 18424,
+      "mirrorPath": "meshes/FJ2950_BP22896_FMA50306_Trunk of left inferior pulmonary vein.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ2950_BP22896_FMA50306_Trunk%20of%20left%20inferior%20pulmonary%20vein.obj"
+    },
+    {
+      "id": "FJ2955",
+      "file": "FJ2955.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ2955_BP22896_FMA50306_Trunk%20of%20left%20inferior%20pulmonary%20vein.obj",
+      "sha256": "94b035dd2716a44e963e3b125f938cb1e349562a84448921ca1fb9160f4ffaea",
+      "bytes": 31962,
+      "mirrorPath": "meshes/FJ2955_BP22896_FMA50306_Trunk of left inferior pulmonary vein.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ2955_BP22896_FMA50306_Trunk%20of%20left%20inferior%20pulmonary%20vein.obj"
+    },
+    {
+      "id": "FJ3645",
+      "file": "FJ3645.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3645_BP23624_FMA4720_Superior%20vena%20cava.obj",
+      "sha256": "48a2c870ff2dbb3f6eef1817cf0ebf57501c78f0726787d3a40424178095e902",
+      "bytes": 35843,
+      "mirrorPath": "meshes/FJ3645_BP23624_FMA4720_Superior vena cava.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3645_BP23624_FMA4720_Superior%20vena%20cava.obj"
+    },
+    {
+      "id": "FJ3583",
+      "file": "FJ3583.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3583_BP23322_FMA66647_Trunk%20of%20right%20brachiocephalic%20vein.obj",
+      "sha256": "58f75b56ff6e4310f335c426025a133d09c458d3353d9cae47cb5a68c8711d60",
+      "bytes": 31668,
+      "mirrorPath": "meshes/FJ3583_BP23322_FMA66647_Trunk of right brachiocephalic vein.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3583_BP23322_FMA66647_Trunk%20of%20right%20brachiocephalic%20vein.obj"
+    },
+    {
+      "id": "FJ3482",
+      "file": "FJ3482.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3482_BP21752_FMA4761_Left%20brachiocephalic%20vein.obj",
+      "sha256": "146540e833e0fc5ba091deffe0cc3ccd5af2f0310b41ed7061dd69ebe21fcdfd",
+      "bytes": 43629,
+      "mirrorPath": "meshes/FJ3482_BP21752_FMA4761_Left brachiocephalic vein.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3482_BP21752_FMA4761_Left%20brachiocephalic%20vein.obj"
+    },
+    {
+      "id": "FJ3416",
+      "file": "FJ3416.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3416_BP22361_FMA4838_Azygos%20vein.obj",
+      "sha256": "ffd96b33a9eeaf229f25d3dd2eb9caecd399124255c2245d289ae92efdba42e4",
+      "bytes": 1185447,
+      "mirrorPath": "meshes/FJ3416_BP22361_FMA4838_Azygos vein.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3416_BP22361_FMA4838_Azygos%20vein.obj"
+    },
+    {
+      "id": "FJ3434",
+      "file": "FJ3434.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3434_BP22357_FMA4944_Hemiazygos%20vein.obj",
+      "sha256": "d6a7695382586ae3fd1428c1ccd6388d63546c5650a468af9dc72cc6b4fa4bf4",
+      "bytes": 265441,
+      "mirrorPath": "meshes/FJ3434_BP22357_FMA4944_Hemiazygos vein.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3434_BP22357_FMA4944_Hemiazygos%20vein.obj"
+    },
+    {
+      "id": "FJ1981",
+      "file": "FJ1981.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ1981_BP20391_FMA5011_Accessory%20hemiazygos%20vein.obj",
+      "sha256": "c95a574262a97c80f578f37ad98a8d57c4c865c074c69383dfaf6750544e1ce9",
+      "bytes": 282824,
+      "mirrorPath": "meshes/FJ1981_BP20391_FMA5011_Accessory hemiazygos vein.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ1981_BP20391_FMA5011_Accessory%20hemiazygos%20vein.obj"
+    },
+    {
+      "id": "FJ4986",
+      "file": "FJ4986.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ4986_BP23191_FMA69325_Trunk%20of%20right%20common%20carotid%20artery.obj",
+      "sha256": "ca755ed77030afa1913f6ebc0ab88a8c16799a3e99d07a09275c54ea208bc1d7",
+      "bytes": 217376,
+      "mirrorPath": "meshes/FJ4986_BP23191_FMA69325_Trunk of right common carotid artery.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ4986_BP23191_FMA69325_Trunk%20of%20right%20common%20carotid%20artery.obj"
+    },
+    {
+      "id": "FJ4993",
+      "file": "FJ4993.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ4993_BP23183_FMA75866_Trunk%20of%20right%20internal%20carotid%20artery.obj",
+      "sha256": "893e6efd5fdb36d234e14963de05d8475887093df1985a675a9f185dfb209b56",
+      "bytes": 47474,
+      "mirrorPath": "meshes/FJ4993_BP23183_FMA75866_Trunk of right internal carotid artery.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ4993_BP23183_FMA75866_Trunk%20of%20right%20internal%20carotid%20artery.obj"
+    },
+    {
+      "id": "FJ4989",
+      "file": "FJ4989.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ4989_BP29715_FMA66531_Trunk%20of%20right%20external%20carotid%20artery.obj",
+      "sha256": "8cd56bd8d84b99e5aee368926aca2e8cfcdef6c9cc1d3b6c22d87c60a94c7d8c",
+      "bytes": 75545,
+      "mirrorPath": "meshes/FJ4989_BP29715_FMA66531_Trunk of right external carotid artery.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ4989_BP29715_FMA66531_Trunk%20of%20right%20external%20carotid%20artery.obj"
+    },
+    {
+      "id": "FJ3483",
+      "file": "FJ3483.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3483_BP23219_FMA75867_Trunk%20of%20left%20internal%20carotid%20artery.obj",
+      "sha256": "2638d2c667900e7b31b5f4b37f7142d04b9f0afa719f029a4540235993ab0553",
+      "bytes": 11774,
+      "mirrorPath": "meshes/FJ3483_BP23219_FMA75867_Trunk of left internal carotid artery.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3483_BP23219_FMA75867_Trunk%20of%20left%20internal%20carotid%20artery.obj"
+    },
+    {
+      "id": "FJ1682M",
+      "file": "FJ1682M.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ1682M_BP23253_FMA69326_Trunk%20of%20left%20common%20carotid%20artery.obj",
+      "sha256": "8d125609795bb2ee2ebcf838adfdd5ce79414e09c292c3eb1c5220f9333c32a9",
+      "bytes": 74952,
+      "mirrorPath": "meshes/FJ1682M_BP23253_FMA69326_Trunk of left common carotid artery.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ1682M_BP23253_FMA69326_Trunk%20of%20left%20common%20carotid%20artery.obj"
+    },
+    {
+      "id": "FJ5015",
+      "file": "FJ5015.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ5015_BP23901_FMA76261_Trunk%20of%20right%20vertebral%20artery.obj",
+      "sha256": "513803dfee654fce199c28a48760e4d4c957d8244ed2de445c4a1d6f361f8972",
+      "bytes": 69907,
+      "mirrorPath": "meshes/FJ5015_BP23901_FMA76261_Trunk of right vertebral artery.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ5015_BP23901_FMA76261_Trunk%20of%20right%20vertebral%20artery.obj"
+    },
+    {
+      "id": "FJ1725M",
+      "file": "FJ1725M.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ1725M_BP23900_FMA76262_Trunk%20of%20left%20vertebral%20artery.obj",
+      "sha256": "5bdbd102269eb365b8947da03cf1a0c1837cda5457cb50e33ce490bcc83d7ff6",
+      "bytes": 51659,
+      "mirrorPath": "meshes/FJ1725M_BP23900_FMA76262_Trunk of left vertebral artery.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ1725M_BP23900_FMA76262_Trunk%20of%20left%20vertebral%20artery.obj"
+    },
+    {
+      "id": "FJ5105",
+      "file": "FJ5105.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ5105_BP29325_FMA50818_Right%20internal%20jugular%20vein%20proper.obj",
+      "sha256": "244f24a58d00d218fa0caf4ca80770268c1fd621f8d39085200059e3381a8f54",
+      "bytes": 91550,
+      "mirrorPath": "meshes/FJ5105_BP29325_FMA50818_Right internal jugular vein proper.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ5105_BP29325_FMA50818_Right%20internal%20jugular%20vein%20proper.obj"
+    },
+    {
+      "id": "FJ3485",
+      "file": "FJ3485.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3485_BP20878_FMA4762_Left%20internal%20jugular%20vein.obj",
+      "sha256": "f823c5a7ca2d49952eecc2fe7a81faddf26c907783fc93525ee753a087cc861d",
+      "bytes": 16664,
+      "mirrorPath": "meshes/FJ3485_BP20878_FMA4762_Left internal jugular vein.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3485_BP20878_FMA4762_Left%20internal%20jugular%20vein.obj"
+    },
+    {
+      "id": "FJ5082",
+      "file": "FJ5082.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ5082_BP28813_FMA13111_Right%20external%20jugular%20vein.obj",
+      "sha256": "6a108df43a56e51fe5eeb15cb568715790de731402f5df94b54f6a47fd3c1e74",
+      "bytes": 272396,
+      "mirrorPath": "meshes/FJ5082_BP28813_FMA13111_Right external jugular vein.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ5082_BP28813_FMA13111_Right%20external%20jugular%20vein.obj"
+    },
+    {
+      "id": "FJ3579",
+      "file": "FJ3579.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3579_BP23187_FMA69318_Trunk%20of%20right%20subclavian%20artery.obj",
+      "sha256": "685211dba96c9cdcef4c04b35daff86317fd4d3a28f7b123b9e8f45d4b150175",
+      "bytes": 27310,
+      "mirrorPath": "meshes/FJ3579_BP23187_FMA69318_Trunk of right subclavian artery.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3579_BP23187_FMA69318_Trunk%20of%20right%20subclavian%20artery.obj"
+    },
+    {
+      "id": "FJ3479",
+      "file": "FJ3479.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3479_BP23654_FMA69319_Trunk%20of%20left%20subclavian%20artery.obj",
+      "sha256": "577179fcb8c1bb9eb19a596150158c28cfef808c73ac0b005900e253dd699b92",
+      "bytes": 39608,
+      "mirrorPath": "meshes/FJ3479_BP23654_FMA69319_Trunk of left subclavian artery.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3479_BP23654_FMA69319_Trunk%20of%20left%20subclavian%20artery.obj"
+    },
+    {
+      "id": "FJ2268",
+      "file": "FJ2268.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ2268_BP20364_FMA22655_Right%20axillary%20artery.obj",
+      "sha256": "c76630b53f0c84b99d3fcc6b689374916f91a8689ed62d55b8b9a878b1ce250d",
+      "bytes": 107893,
+      "mirrorPath": "meshes/FJ2268_BP20364_FMA22655_Right axillary artery.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ2268_BP20364_FMA22655_Right%20axillary%20artery.obj"
+    },
+    {
+      "id": "FJ2216",
+      "file": "FJ2216.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ2216_BP22518_FMA22656_Left%20axillary%20artery.obj",
+      "sha256": "0c7899cd1aadc005dba7432fd3a09197236505519e99882635ebedd04b1c8c6b",
+      "bytes": 105519,
+      "mirrorPath": "meshes/FJ2216_BP22518_FMA22656_Left axillary artery.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ2216_BP22518_FMA22656_Left%20axillary%20artery.obj"
+    },
+    {
+      "id": "FJ2271",
+      "file": "FJ2271.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ2271_BP23743_FMA22691_Right%20brachial%20artery.obj",
+      "sha256": "6b69f0550d5c614befbb5f4584def210d552c8b9c8ba8e6074d4f759de6bd8fb",
+      "bytes": 191229,
+      "mirrorPath": "meshes/FJ2271_BP23743_FMA22691_Right brachial artery.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ2271_BP23743_FMA22691_Right%20brachial%20artery.obj"
+    },
+    {
+      "id": "FJ2219",
+      "file": "FJ2219.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ2219_BP22410_FMA22692_Left%20brachial%20artery.obj",
+      "sha256": "abfcf16be0c40edab3f9865444ceca142d6a39c91f2bce23ea5f9583419c4986",
+      "bytes": 213003,
+      "mirrorPath": "meshes/FJ2219_BP22410_FMA22692_Left brachial artery.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ2219_BP22410_FMA22692_Left%20brachial%20artery.obj"
+    },
+    {
+      "id": "FJ2294",
+      "file": "FJ2294.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ2294_BP23743_FMA22691_Right%20brachial%20artery.obj",
+      "sha256": "cdf2302d3c47686b36e5eb095a86264d2a682f334ac1aff8744246ee81aad756",
+      "bytes": 477494,
+      "mirrorPath": "meshes/FJ2294_BP23743_FMA22691_Right brachial artery.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ2294_BP23743_FMA22691_Right%20brachial%20artery.obj"
+    },
+    {
+      "id": "FJ2242",
+      "file": "FJ2242.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ2242_BP22827_FMA66626_Trunk%20of%20left%20radial%20artery.obj",
+      "sha256": "fbc112c07726018aa49524987d8ba69ce11dd2fa12dd369c32eac032115c856b",
+      "bytes": 492581,
+      "mirrorPath": "meshes/FJ2242_BP22827_FMA66626_Trunk of left radial artery.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ2242_BP22827_FMA66626_Trunk%20of%20left%20radial%20artery.obj"
+    },
+    {
+      "id": "FJ2310",
+      "file": "FJ2310.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ2310_BP23743_FMA22691_Right%20brachial%20artery.obj",
+      "sha256": "0301f1d6eece6cfbc42ecc90d7caf3b261514c00fa00c55e506adbf816bd8ff1",
+      "bytes": 438345,
+      "mirrorPath": "meshes/FJ2310_BP23743_FMA22691_Right brachial artery.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ2310_BP23743_FMA22691_Right%20brachial%20artery.obj"
+    },
+    {
+      "id": "FJ2258",
+      "file": "FJ2258.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ2258_BP23608_FMA66624_Trunk%20of%20left%20ulnar%20artery.obj",
+      "sha256": "745eaf973c2aae99be5f626e643e33049e207c8a6a1a6a0d002b9cc3e9514b52",
+      "bytes": 450756,
+      "mirrorPath": "meshes/FJ2258_BP23608_FMA66624_Trunk of left ulnar artery.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ2258_BP23608_FMA66624_Trunk%20of%20left%20ulnar%20artery.obj"
+    },
+    {
+      "id": "FJ2279",
+      "file": "FJ2279.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ2279_BP23376_FMA22839_Right%20deep%20palmar%20arch.obj",
+      "sha256": "661b5264064dcabeef17ffe7fb22f1ceed3ae6f6e1e182c3cff8f2b860559fe8",
+      "bytes": 102580,
+      "mirrorPath": "meshes/FJ2279_BP23376_FMA22839_Right deep palmar arch.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ2279_BP23376_FMA22839_Right%20deep%20palmar%20arch.obj"
+    },
+    {
+      "id": "FJ2227",
+      "file": "FJ2227.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ2227_BP23527_FMA22840_Left%20deep%20palmar%20arch.obj",
+      "sha256": "d62aaaccffe3882403f23533bc8526dc14c0bc25e24adbd6864747eea5a3b463",
+      "bytes": 103425,
+      "mirrorPath": "meshes/FJ2227_BP23527_FMA22840_Left deep palmar arch.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ2227_BP23527_FMA22840_Left%20deep%20palmar%20arch.obj"
+    },
+    {
+      "id": "FJ3587",
+      "file": "FJ3587.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3587_BP23970_FMA4755_Right%20subclavian%20vein.obj",
+      "sha256": "bdd60f5e0407e4a237e7b03e302c8e7265001e20a6a8b8f7d2e776f2d8b2f431",
+      "bytes": 22618,
+      "mirrorPath": "meshes/FJ3587_BP23970_FMA4755_Right subclavian vein.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3587_BP23970_FMA4755_Right%20subclavian%20vein.obj"
+    },
+    {
+      "id": "FJ3486",
+      "file": "FJ3486.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3486_BP20970_FMA4763_Left%20subclavian%20vein.obj",
+      "sha256": "e91a4667bcd399c36281b0ecfb337623d5c9cb1bcd99b43db42b2142ef21517f",
+      "bytes": 27757,
+      "mirrorPath": "meshes/FJ3486_BP20970_FMA4763_Left subclavian vein.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3486_BP20970_FMA4763_Left%20subclavian%20vein.obj"
+    },
+    {
+      "id": "FJ2269",
+      "file": "FJ2269.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ2269_BP21093_FMA13330_Right%20axillary%20vein.obj",
+      "sha256": "49154a671a269e229cb40b95db3884eeddc2973972e56d3c2ed6090879203aaf",
+      "bytes": 130511,
+      "mirrorPath": "meshes/FJ2269_BP21093_FMA13330_Right axillary vein.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ2269_BP21093_FMA13330_Right%20axillary%20vein.obj"
+    },
+    {
+      "id": "FJ2217",
+      "file": "FJ2217.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ2217_BP21099_FMA13331_Left%20axillary%20vein.obj",
+      "sha256": "56ca24aa806620872a0660710ccd2704ceb6eb4fb7499c74f1f46d790c2360eb",
+      "bytes": 126472,
+      "mirrorPath": "meshes/FJ2217_BP21099_FMA13331_Left axillary vein.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ2217_BP21099_FMA13331_Left%20axillary%20vein.obj"
+    },
+    {
+      "id": "FJ2272",
+      "file": "FJ2272.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ2272_BP21688_FMA13325_Right%20cephalic%20vein.obj",
+      "sha256": "890a655783c58399d652af125be278d0fccd0fe86a8758619161144145cdc8c9",
+      "bytes": 1491506,
+      "mirrorPath": "meshes/FJ2272_BP21688_FMA13325_Right cephalic vein.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ2272_BP21688_FMA13325_Right%20cephalic%20vein.obj"
+    },
+    {
+      "id": "FJ2220",
+      "file": "FJ2220.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ2220_BP22733_FMA13326_Left%20cephalic%20vein.obj",
+      "sha256": "e5ad57e024d1dd922ebf7d22971b1d6f765fe674e50118cd3bddac118698dfcf",
+      "bytes": 1497564,
+      "mirrorPath": "meshes/FJ2220_BP22733_FMA13326_Left cephalic vein.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ2220_BP22733_FMA13326_Left%20cephalic%20vein.obj"
+    },
+    {
+      "id": "FJ2270",
+      "file": "FJ2270.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ2270_BP23821_FMA22909_Right%20basilic%20vein.obj",
+      "sha256": "4783b228d402c86f39bd11593fd38ec2c2abbef9f2a2985c0cc612c7f3d15589",
+      "bytes": 1177608,
+      "mirrorPath": "meshes/FJ2270_BP23821_FMA22909_Right basilic vein.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ2270_BP23821_FMA22909_Right%20basilic%20vein.obj"
+    },
+    {
+      "id": "FJ2218",
+      "file": "FJ2218.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ2218_BP21683_FMA22910_Left%20basilic%20vein.obj",
+      "sha256": "8a996050d59000854aa4877c9be21cd2a8c97fab4f6bca56156dfb9bd2253277",
+      "bytes": 1181387,
+      "mirrorPath": "meshes/FJ2218_BP21683_FMA22910_Left basilic vein.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ2218_BP21683_FMA22910_Left%20basilic%20vein.obj"
+    },
+    {
+      "id": "FJ3441",
+      "file": "FJ3441.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3441_BP23720_FMA10951_Inferior%20vena%20cava.obj",
+      "sha256": "22cee979046d6ade5883a10e2eca4b08222403e7e1adf5802973a21ee6b44b97",
+      "bytes": 88638,
+      "mirrorPath": "meshes/FJ3441_BP23720_FMA10951_Inferior vena cava.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3441_BP23720_FMA10951_Inferior%20vena%20cava.obj"
+    },
+    {
+      "id": "FJ3659",
+      "file": "FJ3659.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3659_BP23720_FMA10951_Inferior%20vena%20cava.obj",
+      "sha256": "e795b17885e03eb14174a527ebc0467b003fd1dc3e5b96c7a327e21b3dc4fe5b",
+      "bytes": 107088,
+      "mirrorPath": "meshes/FJ3659_BP23720_FMA10951_Inferior vena cava.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3659_BP23720_FMA10951_Inferior%20vena%20cava.obj"
+    },
+    {
+      "id": "FJ3421",
+      "file": "FJ3421.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3421_BP23568_FMA14812_Celiac%20trunk.obj",
+      "sha256": "c8c7e54db47fa16520269d0af24ca2a1e8817292d8a78a70357c494c3feb12f3",
+      "bytes": 13962,
+      "mirrorPath": "meshes/FJ3421_BP23568_FMA14812_Celiac trunk.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3421_BP23568_FMA14812_Celiac%20trunk.obj"
+    },
+    {
+      "id": "FJ3078",
+      "file": "FJ3078.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3078_BP24054_FMA76536_Trunk%20of%20common%20hepatic%20artery.obj",
+      "sha256": "641608b734d447be3f596fc50b80144be67f778b4bd3125368ddef3db740df3f",
+      "bytes": 20296,
+      "mirrorPath": "meshes/FJ3078_BP24054_FMA76536_Trunk of common hepatic artery.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3078_BP24054_FMA76536_Trunk%20of%20common%20hepatic%20artery.obj"
+    },
+    {
+      "id": "FJ3081",
+      "file": "FJ3081.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3081_BP24024_FMA76548_Trunk%20of%20hepatic%20artery%20proper.obj",
+      "sha256": "a07f347b1e166a0e88c3ee699a4612fee2148fe8a93ae2ad57996f4a30a60031",
+      "bytes": 20481,
+      "mirrorPath": "meshes/FJ3081_BP24024_FMA76548_Trunk of hepatic artery proper.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3081_BP24024_FMA76548_Trunk%20of%20hepatic%20artery%20proper.obj"
+    },
+    {
+      "id": "FJ3640",
+      "file": "FJ3640.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3640_BP20232_FMA14773_Splenic%20artery.obj",
+      "sha256": "f72ad4af208b4a35c72a76f80922cd34f7ae77ab9d9e00aa0fcb5b1925037c57",
+      "bytes": 126275,
+      "mirrorPath": "meshes/FJ3640_BP20232_FMA14773_Splenic artery.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3640_BP20232_FMA14773_Splenic%20artery.obj"
+    },
+    {
+      "id": "FJ3544",
+      "file": "FJ3544.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3544_BP20232_FMA14773_Splenic%20artery.obj",
+      "sha256": "924bca915ecc43ce387d0e426614138b601cf0c02e7e0abd8bfa4e14d84e2194",
+      "bytes": 219617,
+      "mirrorPath": "meshes/FJ3544_BP20232_FMA14773_Splenic artery.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3544_BP20232_FMA14773_Splenic%20artery.obj"
+    },
+    {
+      "id": "FJ3420",
+      "file": "FJ3420.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3420_BP20232_FMA14773_Splenic%20artery.obj",
+      "sha256": "96661722071fda9d7f3f192643272fba299d2b133453e89d90d73ec3ae948384",
+      "bytes": 47672,
+      "mirrorPath": "meshes/FJ3420_BP20232_FMA14773_Splenic artery.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3420_BP20232_FMA14773_Splenic%20artery.obj"
+    },
+    {
+      "id": "FJ3644",
+      "file": "FJ3644.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3644_BP24097_FMA66358_Trunk%20of%20superior%20mesenteric%20artery.obj",
+      "sha256": "e7d299a2e45bab5cfc1f102ba27dc3af78c3d2b309b6d00c5ba2c5db07e472e7",
+      "bytes": 90333,
+      "mirrorPath": "meshes/FJ3644_BP24097_FMA66358_Trunk of superior mesenteric artery.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3644_BP24097_FMA66358_Trunk%20of%20superior%20mesenteric%20artery.obj"
+    },
+    {
+      "id": "FJ3442",
+      "file": "FJ3442.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3442_BP23699_FMA66359_Trunk%20of%20inferior%20mesenteric%20artery.obj",
+      "sha256": "18ba13f602cde87dad466fab724d731d987b01ffd679c7f88054125762c1ca03",
+      "bytes": 32787,
+      "mirrorPath": "meshes/FJ3442_BP23699_FMA66359_Trunk of inferior mesenteric artery.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3442_BP23699_FMA66359_Trunk%20of%20inferior%20mesenteric%20artery.obj"
+    },
+    {
+      "id": "FJ3576",
+      "file": "FJ3576.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3576_BP24071_FMA66363_Trunk%20of%20right%20renal%20artery.obj",
+      "sha256": "e282311345a6c464bb87c82a03132532951f4519e7d04d93ea099922ef87db56",
+      "bytes": 16072,
+      "mirrorPath": "meshes/FJ3576_BP24071_FMA66363_Trunk of right renal artery.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3576_BP24071_FMA66363_Trunk%20of%20right%20renal%20artery.obj"
+    },
+    {
+      "id": "FJ3476",
+      "file": "FJ3476.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3476_BP22669_FMA66364_Trunk%20of%20left%20renal%20artery.obj",
+      "sha256": "dfe5b3712f2940b5adfcd6d545b9964f77749f17fa5d9c2d888e451a832304e9",
+      "bytes": 14449,
+      "mirrorPath": "meshes/FJ3476_BP22669_FMA66364_Trunk of left renal artery.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3476_BP22669_FMA66364_Trunk%20of%20left%20renal%20artery.obj"
+    },
+    {
+      "id": "FJ3558",
+      "file": "FJ3558.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3558_BP19907_FMA70486_Anterior%20division%20of%20right%20renal%20artery.obj",
+      "sha256": "b01af1fa1bd274b3957e7882920e8e0ba707f8d791ab3b71b5141437c571320a",
+      "bytes": 64718,
+      "mirrorPath": "meshes/FJ3558_BP19907_FMA70486_Anterior division of right renal artery.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3558_BP19907_FMA70486_Anterior%20division%20of%20right%20renal%20artery.obj"
+    },
+    {
+      "id": "FJ3559",
+      "file": "FJ3559.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3559_BP19907_FMA70486_Anterior%20division%20of%20right%20renal%20artery.obj",
+      "sha256": "4cf78068c7af89b466ecc00bcd06337049a88177695c22bfc3b6b80cd6eeb08a",
+      "bytes": 42626,
+      "mirrorPath": "meshes/FJ3559_BP19907_FMA70486_Anterior division of right renal artery.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3559_BP19907_FMA70486_Anterior%20division%20of%20right%20renal%20artery.obj"
+    },
+    {
+      "id": "FJ3560",
+      "file": "FJ3560.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3560_BP19907_FMA70486_Anterior%20division%20of%20right%20renal%20artery.obj",
+      "sha256": "abdaeefe2f5bb2bedc4c573add2e35ff0b3ae4f430e5a4a846e9e94bf7528a99",
+      "bytes": 39507,
+      "mirrorPath": "meshes/FJ3560_BP19907_FMA70486_Anterior division of right renal artery.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3560_BP19907_FMA70486_Anterior%20division%20of%20right%20renal%20artery.obj"
+    },
+    {
+      "id": "FJ3561",
+      "file": "FJ3561.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3561_BP19907_FMA70486_Anterior%20division%20of%20right%20renal%20artery.obj",
+      "sha256": "e395d4c4048e8be4076b7a1c5203bccfbc109696d6f2a80a4188033bd155443b",
+      "bytes": 39116,
+      "mirrorPath": "meshes/FJ3561_BP19907_FMA70486_Anterior division of right renal artery.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3561_BP19907_FMA70486_Anterior%20division%20of%20right%20renal%20artery.obj"
+    },
+    {
+      "id": "FJ3562",
+      "file": "FJ3562.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3562_BP19907_FMA70486_Anterior%20division%20of%20right%20renal%20artery.obj",
+      "sha256": "64829125814ff500cca0cfa4bf52d0a618d0aaacce491455ec3cfe73d287d824",
+      "bytes": 80878,
+      "mirrorPath": "meshes/FJ3562_BP19907_FMA70486_Anterior division of right renal artery.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3562_BP19907_FMA70486_Anterior%20division%20of%20right%20renal%20artery.obj"
+    },
+    {
+      "id": "FJ3563",
+      "file": "FJ3563.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3563_BP19907_FMA70486_Anterior%20division%20of%20right%20renal%20artery.obj",
+      "sha256": "45d854e879a0cf689608a8ce53e50a912f2b3d7f8a6370d0f69253a236a4f957",
+      "bytes": 335252,
+      "mirrorPath": "meshes/FJ3563_BP19907_FMA70486_Anterior division of right renal artery.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3563_BP19907_FMA70486_Anterior%20division%20of%20right%20renal%20artery.obj"
+    },
+    {
+      "id": "FJ3458",
+      "file": "FJ3458.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3458_BP19915_FMA70487_Anterior%20division%20of%20left%20renal%20artery.obj",
+      "sha256": "843a749443c0aff7f2ce8f1723e85a2727cadff56b98526fb3b6cbab61c886cf",
+      "bytes": 85975,
+      "mirrorPath": "meshes/FJ3458_BP19915_FMA70487_Anterior division of left renal artery.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3458_BP19915_FMA70487_Anterior%20division%20of%20left%20renal%20artery.obj"
+    },
+    {
+      "id": "FJ3459",
+      "file": "FJ3459.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3459_BP19915_FMA70487_Anterior%20division%20of%20left%20renal%20artery.obj",
+      "sha256": "4add66ee0fe0d6cde4da5d98f31e1f34a7ad189b3884453f1f80726c48e7dc27",
+      "bytes": 33233,
+      "mirrorPath": "meshes/FJ3459_BP19915_FMA70487_Anterior division of left renal artery.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3459_BP19915_FMA70487_Anterior%20division%20of%20left%20renal%20artery.obj"
+    },
+    {
+      "id": "FJ3460",
+      "file": "FJ3460.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3460_BP19915_FMA70487_Anterior%20division%20of%20left%20renal%20artery.obj",
+      "sha256": "c38d3afa438fcbc6d3bf741d911ed1302bb6bddffac53e0f7c98a2c4c6f0761d",
+      "bytes": 39895,
+      "mirrorPath": "meshes/FJ3460_BP19915_FMA70487_Anterior division of left renal artery.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3460_BP19915_FMA70487_Anterior%20division%20of%20left%20renal%20artery.obj"
+    },
+    {
+      "id": "FJ3461",
+      "file": "FJ3461.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3461_BP19915_FMA70487_Anterior%20division%20of%20left%20renal%20artery.obj",
+      "sha256": "158a9c615a83881680841acd64ac9c48920268905d647fb6ffe9ae46deb8405f",
+      "bytes": 316174,
+      "mirrorPath": "meshes/FJ3461_BP19915_FMA70487_Anterior division of left renal artery.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3461_BP19915_FMA70487_Anterior%20division%20of%20left%20renal%20artery.obj"
+    },
+    {
+      "id": "FJ3462",
+      "file": "FJ3462.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3462_BP19915_FMA70487_Anterior%20division%20of%20left%20renal%20artery.obj",
+      "sha256": "d8b43c1022fc6b8a521164564f39a9040df97b7c4d720f5ccffacbec3f94aee3",
+      "bytes": 88451,
+      "mirrorPath": "meshes/FJ3462_BP19915_FMA70487_Anterior division of left renal artery.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3462_BP19915_FMA70487_Anterior%20division%20of%20left%20renal%20artery.obj"
+    },
+    {
+      "id": "FJ3463",
+      "file": "FJ3463.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3463_BP19915_FMA70487_Anterior%20division%20of%20left%20renal%20artery.obj",
+      "sha256": "8db02d11ae4a44a6e36a874727f370ae572115192f7772d1443353f18da353bb",
+      "bytes": 178148,
+      "mirrorPath": "meshes/FJ3463_BP19915_FMA70487_Anterior division of left renal artery.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3463_BP19915_FMA70487_Anterior%20division%20of%20left%20renal%20artery.obj"
+    },
+    {
+      "id": "FJ3573",
+      "file": "FJ3573.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3573_BP19937_FMA70489_Posterior%20division%20of%20right%20renal%20artery.obj",
+      "sha256": "1e5feab75d91bbf0f682787c69b76187a8e477c76e7b76016bbdba1db60cfb80",
+      "bytes": 31669,
+      "mirrorPath": "meshes/FJ3573_BP19937_FMA70489_Posterior division of right renal artery.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3573_BP19937_FMA70489_Posterior%20division%20of%20right%20renal%20artery.obj"
+    },
+    {
+      "id": "FJ3574",
+      "file": "FJ3574.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3574_BP19937_FMA70489_Posterior%20division%20of%20right%20renal%20artery.obj",
+      "sha256": "a0c7cbbeef7e4f971c3a2846178ef63d4ed7c0277ddae48a5914ed2afacaed0c",
+      "bytes": 27032,
+      "mirrorPath": "meshes/FJ3574_BP19937_FMA70489_Posterior division of right renal artery.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3574_BP19937_FMA70489_Posterior%20division%20of%20right%20renal%20artery.obj"
+    },
+    {
+      "id": "FJ3575",
+      "file": "FJ3575.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3575_BP19937_FMA70489_Posterior%20division%20of%20right%20renal%20artery.obj",
+      "sha256": "e8cdf48a0a1f4f1aee5a5dbfd54b40f37c9ad29283e7310cd4adb5415ecfc3af",
+      "bytes": 113344,
+      "mirrorPath": "meshes/FJ3575_BP19937_FMA70489_Posterior division of right renal artery.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3575_BP19937_FMA70489_Posterior%20division%20of%20right%20renal%20artery.obj"
+    },
+    {
+      "id": "FJ3473",
+      "file": "FJ3473.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3473_BP20416_FMA70490_Posterior%20division%20of%20left%20renal%20artery.obj",
+      "sha256": "41d9dd828aa260e73e8a33f849f0d997afd9dc5f1fee71a034795bc714fee9a8",
+      "bytes": 26208,
+      "mirrorPath": "meshes/FJ3473_BP20416_FMA70490_Posterior division of left renal artery.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3473_BP20416_FMA70490_Posterior%20division%20of%20left%20renal%20artery.obj"
+    },
+    {
+      "id": "FJ3474",
+      "file": "FJ3474.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3474_BP20416_FMA70490_Posterior%20division%20of%20left%20renal%20artery.obj",
+      "sha256": "a40d08c338db825c14f184a0a97516e48cc2b216a534f09ae8152307e1f0e105",
+      "bytes": 16831,
+      "mirrorPath": "meshes/FJ3474_BP20416_FMA70490_Posterior division of left renal artery.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3474_BP20416_FMA70490_Posterior%20division%20of%20left%20renal%20artery.obj"
+    },
+    {
+      "id": "FJ3475",
+      "file": "FJ3475.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3475_BP20416_FMA70490_Posterior%20division%20of%20left%20renal%20artery.obj",
+      "sha256": "2b6e1e3a70aea444d05009c831c39a8bae6226eba0f4268394944c7b2379697e",
+      "bytes": 25226,
+      "mirrorPath": "meshes/FJ3475_BP20416_FMA70490_Posterior division of left renal artery.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3475_BP20416_FMA70490_Posterior%20division%20of%20left%20renal%20artery.obj"
+    },
+    {
+      "id": "FJ3577",
+      "file": "FJ3577.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3577_BP19745_FMA14335_Right%20renal%20vein.obj",
+      "sha256": "99c61ccf20105b8ffac8c35c4307af9d5ef917e12060803408d42ebf5e4d112b",
+      "bytes": 19111,
+      "mirrorPath": "meshes/FJ3577_BP19745_FMA14335_Right renal vein.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3577_BP19745_FMA14335_Right%20renal%20vein.obj"
+    },
+    {
+      "id": "FJ3578",
+      "file": "FJ3578.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3578_BP19745_FMA14335_Right%20renal%20vein.obj",
+      "sha256": "2229e87d6ffe72c5733ae433be6c2eed74a62736e2aa75f2081b9e412cb692b6",
+      "bytes": 387962,
+      "mirrorPath": "meshes/FJ3578_BP19745_FMA14335_Right renal vein.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3578_BP19745_FMA14335_Right%20renal%20vein.obj"
+    },
+    {
+      "id": "FJ3477",
+      "file": "FJ3477.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3477_BP22197_FMA14336_Left%20renal%20vein.obj",
+      "sha256": "938dabbef109d83bacb61fb592ab14ac2e51a8306ce207d4012af816a9557a55",
+      "bytes": 38139,
+      "mirrorPath": "meshes/FJ3477_BP22197_FMA14336_Left renal vein.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3477_BP22197_FMA14336_Left%20renal%20vein.obj"
+    },
+    {
+      "id": "FJ3478",
+      "file": "FJ3478.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3478_BP22197_FMA14336_Left%20renal%20vein.obj",
+      "sha256": "ba1a05f51e9bcaa538edf21c5e230d578757d611b3864506d20c0274d98bde13",
+      "bytes": 356025,
+      "mirrorPath": "meshes/FJ3478_BP22197_FMA14336_Left renal vein.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3478_BP22197_FMA14336_Left%20renal%20vein.obj"
+    },
+    {
+      "id": "FJ3082",
+      "file": "FJ3082.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3082_BP23408_FMA71904_Pre-hepatic%20portal%20vein.obj",
+      "sha256": "1e13838c7d06cb0d21c8d3056ef0fb8e4edf1880164514043f6d4473d1186fae",
+      "bytes": 222078,
+      "mirrorPath": "meshes/FJ3082_BP23408_FMA71904_Pre-hepatic portal vein.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3082_BP23408_FMA71904_Pre-hepatic%20portal%20vein.obj"
+    },
+    {
+      "id": "FJ3122",
+      "file": "FJ3122.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3122_BP22047_FMA82695_Trunk%20of%20right%20portal%20vein.obj",
+      "sha256": "b94a63fa57e09b7cdcdfac945e7d5a62f95d46da4b74a9edde0e16c3a3160b72",
+      "bytes": 11428,
+      "mirrorPath": "meshes/FJ3122_BP22047_FMA82695_Trunk of right portal vein.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3122_BP22047_FMA82695_Trunk%20of%20right%20portal%20vein.obj"
+    },
+    {
+      "id": "FJ3102",
+      "file": "FJ3102.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3102_BP20329_FMA82697_Trunk%20of%20left%20portal%20vein.obj",
+      "sha256": "eae69001b464bd8bf3dbb3f080df7fe7784c1824e52274991529df0eef0fcc29",
+      "bytes": 42506,
+      "mirrorPath": "meshes/FJ3102_BP20329_FMA82697_Trunk of left portal vein.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3102_BP20329_FMA82697_Trunk%20of%20left%20portal%20vein.obj"
+    },
+    {
+      "id": "FJ3641",
+      "file": "FJ3641.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3641_BP20220_FMA14331_Splenic%20vein.obj",
+      "sha256": "6e21d97501840a864454e0dca8e9ebec09ae7cf0b326604d709ddf8b6a9c4327",
+      "bytes": 87010,
+      "mirrorPath": "meshes/FJ3641_BP20220_FMA14331_Splenic vein.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3641_BP20220_FMA14331_Splenic%20vein.obj"
+    },
+    {
+      "id": "FJ3647",
+      "file": "FJ3647.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3647_BP20206_FMA14332_Superior%20mesenteric%20vein.obj",
+      "sha256": "5868700f6e29d733743db75fbcb330debd19863cf9234227b549ebf0cf08b4b0",
+      "bytes": 49230,
+      "mirrorPath": "meshes/FJ3647_BP20206_FMA14332_Superior mesenteric vein.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3647_BP20206_FMA14332_Superior%20mesenteric%20vein.obj"
+    },
+    {
+      "id": "FJ3443",
+      "file": "FJ3443.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3443_BP20470_FMA15391_Inferior%20mesenteric%20vein.obj",
+      "sha256": "1270139cf44e5572936a49047401458876d8065635af99d61d95f842209eecdb",
+      "bytes": 65798,
+      "mirrorPath": "meshes/FJ3443_BP20470_FMA15391_Inferior mesenteric vein.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3443_BP20470_FMA15391_Inferior%20mesenteric%20vein.obj"
+    },
+    {
+      "id": "FJ3565",
+      "file": "FJ3565.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3565_BP19705_FMA69383_Trunk%20of%20right%20common%20iliac%20artery.obj",
+      "sha256": "f382d4aa7f240e3aafc30142e59c9018eb8181dbb112755e1b93a9e9df345372",
+      "bytes": 12559,
+      "mirrorPath": "meshes/FJ3565_BP19705_FMA69383_Trunk of right common iliac artery.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3565_BP19705_FMA69383_Trunk%20of%20right%20common%20iliac%20artery.obj"
+    },
+    {
+      "id": "FJ3464",
+      "file": "FJ3464.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3464_BP22662_FMA69384_Trunk%20of%20left%20common%20iliac%20artery.obj",
+      "sha256": "7d1847243fd661ca54ba2f5c9dd0edeee0a0d2536b032ab9250a8fb3368609d1",
+      "bytes": 13920,
+      "mirrorPath": "meshes/FJ3464_BP22662_FMA69384_Trunk of left common iliac artery.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3464_BP22662_FMA69384_Trunk%20of%20left%20common%20iliac%20artery.obj"
+    },
+    {
+      "id": "FJ3569",
+      "file": "FJ3569.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3569_BP21640_FMA18809_Right%20internal%20iliac%20artery.obj",
+      "sha256": "83a1ab60bd5d821465b633b5fdd167d2d8c8c08d50b6174edc62cbdbdda1fd98",
+      "bytes": 19404,
+      "mirrorPath": "meshes/FJ3569_BP21640_FMA18809_Right internal iliac artery.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3569_BP21640_FMA18809_Right%20internal%20iliac%20artery.obj"
+    },
+    {
+      "id": "FJ3468",
+      "file": "FJ3468.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3468_BP20757_FMA70187_Trunk%20of%20left%20internal%20iliac%20artery.obj",
+      "sha256": "d74c03dc33b4e752790cf868167d1a8d98b6aeff124303f53a67da48ea2f11f7",
+      "bytes": 18533,
+      "mirrorPath": "meshes/FJ3468_BP20757_FMA70187_Trunk of left internal iliac artery.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3468_BP20757_FMA70187_Trunk%20of%20left%20internal%20iliac%20artery.obj"
+    },
+    {
+      "id": "FJ3567",
+      "file": "FJ3567.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3567_BP23461_FMA69390_Trunk%20proper%20of%20right%20external%20iliac%20artery.obj",
+      "sha256": "d0e2da1ed861020de297ef5d496b29a7a8e4c6388e886654c0a97f2cd482712f",
+      "bytes": 23687,
+      "mirrorPath": "meshes/FJ3567_BP23461_FMA69390_Trunk proper of right external iliac artery.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3567_BP23461_FMA69390_Trunk%20proper%20of%20right%20external%20iliac%20artery.obj"
+    },
+    {
+      "id": "FJ3466",
+      "file": "FJ3466.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3466_BP23478_FMA69391_Trunk%20proper%20of%20left%20external%20iliac%20artery.obj",
+      "sha256": "a5ac78c639f42a2a0abf9f359d778dece6f804f112bbc5832979299bcafeb060",
+      "bytes": 26656,
+      "mirrorPath": "meshes/FJ3466_BP23478_FMA69391_Trunk proper of left external iliac artery.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3466_BP23478_FMA69391_Trunk%20proper%20of%20left%20external%20iliac%20artery.obj"
+    },
+    {
+      "id": "FJ3566",
+      "file": "FJ3566.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3566_BP21679_FMA21387_Right%20common%20iliac%20vein.obj",
+      "sha256": "fd40af96c7cb3bab7903fce9202f5e1edb8f52b5f60ce574c4fb6fef6fac236d",
+      "bytes": 21656,
+      "mirrorPath": "meshes/FJ3566_BP21679_FMA21387_Right common iliac vein.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3566_BP21679_FMA21387_Right%20common%20iliac%20vein.obj"
+    },
+    {
+      "id": "FJ3465",
+      "file": "FJ3465.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3465_BP21633_FMA21388_Left%20common%20iliac%20vein.obj",
+      "sha256": "ba800af42f2dec96764d29a2a693a0f648e0585d5f41b1694b5e312d743de06a",
+      "bytes": 26238,
+      "mirrorPath": "meshes/FJ3465_BP21633_FMA21388_Left common iliac vein.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3465_BP21633_FMA21388_Left%20common%20iliac%20vein.obj"
+    },
+    {
+      "id": "FJ3570",
+      "file": "FJ3570.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3570_BP21783_FMA18887_Right%20internal%20iliac%20vein.obj",
+      "sha256": "e31f86121ab7f23c75ed85648928a436895b3212cfc345f8e9bbac1aea427462",
+      "bytes": 15026,
+      "mirrorPath": "meshes/FJ3570_BP21783_FMA18887_Right internal iliac vein.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3570_BP21783_FMA18887_Right%20internal%20iliac%20vein.obj"
+    },
+    {
+      "id": "FJ3571",
+      "file": "FJ3571.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3571_BP21783_FMA18887_Right%20internal%20iliac%20vein.obj",
+      "sha256": "da1db84ababc7334c5c087b95e47b90c3c8f42f75da6eb8c21d05001c143dcc3",
+      "bytes": 13190,
+      "mirrorPath": "meshes/FJ3571_BP21783_FMA18887_Right internal iliac vein.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3571_BP21783_FMA18887_Right%20internal%20iliac%20vein.obj"
+    },
+    {
+      "id": "FJ3572",
+      "file": "FJ3572.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3572_BP21783_FMA18887_Right%20internal%20iliac%20vein.obj",
+      "sha256": "7fbaadc88a992c501e8d935361e82a7a1693ca5753eb93035b351bcb364a0354",
+      "bytes": 13856,
+      "mirrorPath": "meshes/FJ3572_BP21783_FMA18887_Right internal iliac vein.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3572_BP21783_FMA18887_Right%20internal%20iliac%20vein.obj"
+    },
+    {
+      "id": "FJ3607",
+      "file": "FJ3607.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3607_BP21783_FMA18887_Right%20internal%20iliac%20vein.obj",
+      "sha256": "dc5a550333bebf129d52c67cdc8cce95083ce689b2a9cf87b9e4d39a6f26984f",
+      "bytes": 7135,
+      "mirrorPath": "meshes/FJ3607_BP21783_FMA18887_Right internal iliac vein.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3607_BP21783_FMA18887_Right%20internal%20iliac%20vein.obj"
+    },
+    {
+      "id": "FJ3608",
+      "file": "FJ3608.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3608_BP21783_FMA18887_Right%20internal%20iliac%20vein.obj",
+      "sha256": "15bffd4f0ce9065192a5a144121d19ccea2618f5f3ff45ae4c5b989593a75890",
+      "bytes": 11720,
+      "mirrorPath": "meshes/FJ3608_BP21783_FMA18887_Right internal iliac vein.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3608_BP21783_FMA18887_Right%20internal%20iliac%20vein.obj"
+    },
+    {
+      "id": "FJ3609",
+      "file": "FJ3609.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3609_BP21783_FMA18887_Right%20internal%20iliac%20vein.obj",
+      "sha256": "367e9038f795ba1a69a2c0c1e83c771220f8e9e4fe780c71fde68fb0affa3469",
+      "bytes": 6157,
+      "mirrorPath": "meshes/FJ3609_BP21783_FMA18887_Right internal iliac vein.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3609_BP21783_FMA18887_Right%20internal%20iliac%20vein.obj"
+    },
+    {
+      "id": "FJ3469",
+      "file": "FJ3469.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3469_BP21482_FMA18888_Left%20internal%20iliac%20vein.obj",
+      "sha256": "ba3da6ab9b93035420ed399b1957045b8bd28a1c101b56a2b6f057e3bb937624",
+      "bytes": 13192,
+      "mirrorPath": "meshes/FJ3469_BP21482_FMA18888_Left internal iliac vein.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3469_BP21482_FMA18888_Left%20internal%20iliac%20vein.obj"
+    },
+    {
+      "id": "FJ3470",
+      "file": "FJ3470.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3470_BP21482_FMA18888_Left%20internal%20iliac%20vein.obj",
+      "sha256": "0c8e2aaf5259271aced8cbecbfe21d1ef0e6a9d316b302dd7db054be4ed1eb7b",
+      "bytes": 11569,
+      "mirrorPath": "meshes/FJ3470_BP21482_FMA18888_Left internal iliac vein.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3470_BP21482_FMA18888_Left%20internal%20iliac%20vein.obj"
+    },
+    {
+      "id": "FJ3471",
+      "file": "FJ3471.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3471_BP21482_FMA18888_Left%20internal%20iliac%20vein.obj",
+      "sha256": "e72fdabe7396a8164f9577a769b68c37dcb07cf740dda8b0db40b0742eddc452",
+      "bytes": 13052,
+      "mirrorPath": "meshes/FJ3471_BP21482_FMA18888_Left internal iliac vein.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3471_BP21482_FMA18888_Left%20internal%20iliac%20vein.obj"
+    },
+    {
+      "id": "FJ3568",
+      "file": "FJ3568.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3568_BP22755_FMA18885_Right%20external%20iliac%20vein.obj",
+      "sha256": "56977387f707ccae76d5f6fc42a887419a2fb2833d2949e0b961fbecea4d9590",
+      "bytes": 44178,
+      "mirrorPath": "meshes/FJ3568_BP22755_FMA18885_Right external iliac vein.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3568_BP22755_FMA18885_Right%20external%20iliac%20vein.obj"
+    },
+    {
+      "id": "FJ3484",
+      "file": "FJ3484.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3484_BP23965_FMA18886_Left%20external%20iliac%20vein.obj",
+      "sha256": "78e0d283c47f9e28608a29a01e491f12a7b8473ab50634d6635bbc5b8d7dda0c",
+      "bytes": 41162,
+      "mirrorPath": "meshes/FJ3484_BP23965_FMA18886_Left external iliac vein.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ3484_BP23965_FMA18886_Left%20external%20iliac%20vein.obj"
+    },
+    {
+      "id": "FJ2143",
+      "file": "FJ2143.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ2143_BP23446_FMA20731_Trunk%20of%20right%20femoral%20artery.obj",
+      "sha256": "38a157165e0feb068d98087e14dcea2e6307217dc4b82c3493d2ff9dad7ef51d",
+      "bytes": 44153,
+      "mirrorPath": "meshes/FJ2143_BP23446_FMA20731_Trunk of right femoral artery.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ2143_BP23446_FMA20731_Trunk%20of%20right%20femoral%20artery.obj"
+    },
+    {
+      "id": "FJ2074",
+      "file": "FJ2074.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ2074_BP22862_FMA20732_Trunk%20of%20left%20femoral%20artery.obj",
+      "sha256": "7ef6f5b6ee93e4e2282c3c2c3a3fe88c72f035a4491b5e7f24051b6af5f26bad",
+      "bytes": 42935,
+      "mirrorPath": "meshes/FJ2074_BP22862_FMA20732_Trunk of left femoral artery.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ2074_BP22862_FMA20732_Trunk%20of%20left%20femoral%20artery.obj"
+    },
+    {
+      "id": "FJ2203",
+      "file": "FJ2203.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ2203_BP29028_FMA20796_Right%20deep%20femoral%20artery.obj",
+      "sha256": "ed385313f3b3a473f74a700695a43eeb7b4726f4e08412f4ddf6fae7edcbc25b",
+      "bytes": 389850,
+      "mirrorPath": "meshes/FJ2203_BP29028_FMA20796_Right deep femoral artery.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ2203_BP29028_FMA20796_Right%20deep%20femoral%20artery.obj"
+    },
+    {
+      "id": "FJ2094",
+      "file": "FJ2094.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ2094_BP29051_FMA20797_Left%20deep%20femoral%20artery.obj",
+      "sha256": "882cfa9b283f33d8346d89fb2d350d1b4ce9ed9f8327048cde4b5986c30de828",
+      "bytes": 387046,
+      "mirrorPath": "meshes/FJ2094_BP29051_FMA20797_Left deep femoral artery.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ2094_BP29051_FMA20797_Left%20deep%20femoral%20artery.obj"
+    },
+    {
+      "id": "FJ2170",
+      "file": "FJ2170.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ2170_BP20536_FMA77380_Right%20popliteal%20artery.obj",
+      "sha256": "af87bf9096eb32020fab5d4e286d7f9de07f83b362c3770d581902f952dede09",
+      "bytes": 1087649,
+      "mirrorPath": "meshes/FJ2170_BP20536_FMA77380_Right popliteal artery.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ2170_BP20536_FMA77380_Right%20popliteal%20artery.obj"
+    },
+    {
+      "id": "FJ2086",
+      "file": "FJ2086.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ2086_BP22017_FMA77381_Left%20popliteal%20artery.obj",
+      "sha256": "e5179b8abf361b35d00fe42def164ea43e8b3e4a5f3aef8ab487cd9958a6893b",
+      "bytes": 1076351,
+      "mirrorPath": "meshes/FJ2086_BP22017_FMA77381_Left popliteal artery.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ2086_BP22017_FMA77381_Left%20popliteal%20artery.obj"
+    },
+    {
+      "id": "FJ2130",
+      "file": "FJ2130.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ2130_BP23419_FMA66424_Trunk%20of%20right%20anterior%20tibial%20artery.obj",
+      "sha256": "b1bc72c0e656233bcebcfb95c8b9e9c96e5480ea8b48277e09c9b376d29ff924",
+      "bytes": 1125758,
+      "mirrorPath": "meshes/FJ2130_BP23419_FMA66424_Trunk of right anterior tibial artery.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ2130_BP23419_FMA66424_Trunk%20of%20right%20anterior%20tibial%20artery.obj"
+    },
+    {
+      "id": "FJ2065",
+      "file": "FJ2065.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ2065_BP23463_FMA66425_Trunk%20of%20left%20anterior%20tibial%20artery.obj",
+      "sha256": "553a4958fe208477580283466d504880ff5b4a4467a66ad500cec160ac9d8a12",
+      "bytes": 1122066,
+      "mirrorPath": "meshes/FJ2065_BP23463_FMA66425_Trunk of left anterior tibial artery.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ2065_BP23463_FMA66425_Trunk%20of%20left%20anterior%20tibial%20artery.obj"
+    },
+    {
+      "id": "FJ2172",
+      "file": "FJ2172.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ2172_BP23477_FMA66426_Trunk%20of%20right%20posterior%20tibial%20artery.obj",
+      "sha256": "5a938542bd83f382642ea8865add7c4b4b345f920ebea3b07ad15b56470cb666",
+      "bytes": 852779,
+      "mirrorPath": "meshes/FJ2172_BP23477_FMA66426_Trunk of right posterior tibial artery.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ2172_BP23477_FMA66426_Trunk%20of%20right%20posterior%20tibial%20artery.obj"
+    },
+    {
+      "id": "FJ2087",
+      "file": "FJ2087.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ2087_BP23421_FMA66427_Trunk%20of%20left%20posterior%20tibial%20artery.obj",
+      "sha256": "fc5e4cbd73cf0caeb175220f8923f2b997870c2a86f201ce2c9971b318fea784",
+      "bytes": 853297,
+      "mirrorPath": "meshes/FJ2087_BP23421_FMA66427_Trunk of left posterior tibial artery.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ2087_BP23421_FMA66427_Trunk%20of%20left%20posterior%20tibial%20artery.obj"
+    },
+    {
+      "id": "FJ2197",
+      "file": "FJ2197.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ2197_BP29774_FMA43922_Right%20peroneal%20artery.obj",
+      "sha256": "b01f65b60ca9f752d5718dbca11c8e744a115e1d5b97faff418831269d39acee",
+      "bytes": 782676,
+      "mirrorPath": "meshes/FJ2197_BP29774_FMA43922_Right peroneal artery.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ2197_BP29774_FMA43922_Right%20peroneal%20artery.obj"
+    },
+    {
+      "id": "FJ2093",
+      "file": "FJ2093.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ2093_BP29771_FMA43923_Left%20peroneal%20artery.obj",
+      "sha256": "860f2a7e4e72fdfb164ea4d657d5d76452ae89945bea586703a42056892c994b",
+      "bytes": 777754,
+      "mirrorPath": "meshes/FJ2093_BP29771_FMA43923_Left peroneal artery.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ2093_BP29771_FMA43923_Left%20peroneal%20artery.obj"
+    },
+    {
+      "id": "FJ2055",
+      "file": "FJ2055.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ2055_BP23450_FMA43916_Right%20dorsalis%20pedis%20artery.obj",
+      "sha256": "73655616b15033bcbfba54494d722f410b10be3d9e78980c8c2e8544351bea91",
+      "bytes": 65118,
+      "mirrorPath": "meshes/FJ2055_BP23450_FMA43916_Right dorsalis pedis artery.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ2055_BP23450_FMA43916_Right%20dorsalis%20pedis%20artery.obj"
+    },
+    {
+      "id": "FJ2073",
+      "file": "FJ2073.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ2073_BP23420_FMA43917_Left%20dorsalis%20pedis%20artery.obj",
+      "sha256": "1442a51f1d4fc15f25eab1b7f2b20ac02c81950ca79df28eaa5922677e0d5989",
+      "bytes": 67266,
+      "mirrorPath": "meshes/FJ2073_BP23420_FMA43917_Left dorsalis pedis artery.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ2073_BP23420_FMA43917_Left%20dorsalis%20pedis%20artery.obj"
+    },
+    {
+      "id": "FJ2169",
+      "file": "FJ2169.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ2169_BP21656_FMA43943_Right%20plantar%20arch.obj",
+      "sha256": "18d6adc376f5c3d1190cc677ce126b13a9d3a50e6bc548787aa3f44b7be9bb85",
+      "bytes": 73368,
+      "mirrorPath": "meshes/FJ2169_BP21656_FMA43943_Right plantar arch.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ2169_BP21656_FMA43943_Right%20plantar%20arch.obj"
+    },
+    {
+      "id": "FJ2085",
+      "file": "FJ2085.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ2085_BP22250_FMA43944_Left%20plantar%20arch.obj",
+      "sha256": "99cd4b3b936d390e183410a88164bfdaf3aea5b5ec43698fd3c13f5dbc96add2",
+      "bytes": 70984,
+      "mirrorPath": "meshes/FJ2085_BP22250_FMA43944_Left plantar arch.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ2085_BP22250_FMA43944_Left%20plantar%20arch.obj"
+    },
+    {
+      "id": "FJ2144",
+      "file": "FJ2144.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ2144_BP20797_FMA21188_Right%20femoral%20vein.obj",
+      "sha256": "2efbb12df7ecc014df3266c2e4ec0c0bd55e3af1a2f4438f2682e543313e1ea6",
+      "bytes": 38686,
+      "mirrorPath": "meshes/FJ2144_BP20797_FMA21188_Right femoral vein.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ2144_BP20797_FMA21188_Right%20femoral%20vein.obj"
+    },
+    {
+      "id": "FJ2102",
+      "file": "FJ2102.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ2102_BP20856_FMA21189_Left%20femoral%20vein.obj",
+      "sha256": "81ac633f5ec012628cdecd371d92b18cf478b85948f6dfad64d07d04ccebdc8c",
+      "bytes": 38085,
+      "mirrorPath": "meshes/FJ2102_BP20856_FMA21189_Left femoral vein.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ2102_BP20856_FMA21189_Left%20femoral%20vein.obj"
+    },
+    {
+      "id": "FJ2171",
+      "file": "FJ2171.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ2171_BP21198_FMA44328_Right%20popliteal%20vein.obj",
+      "sha256": "d12f25d813fd368b7d4cfda5cfe061869a7b9341d23ff49d6efb73fede83a272",
+      "bytes": 1089650,
+      "mirrorPath": "meshes/FJ2171_BP21198_FMA44328_Right popliteal vein.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ2171_BP21198_FMA44328_Right%20popliteal%20vein.obj"
+    },
+    {
+      "id": "FJ2117",
+      "file": "FJ2117.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ2117_BP21201_FMA44329_Left%20popliteal%20vein.obj",
+      "sha256": "18ee61c4e165a2dc6b7f258528deaf74a745d92f936a30d579a499c0c70a3a29",
+      "bytes": 1075896,
+      "mirrorPath": "meshes/FJ2117_BP21201_FMA44329_Left popliteal vein.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ2117_BP21201_FMA44329_Left%20popliteal%20vein.obj"
+    },
+    {
+      "id": "FJ2145",
+      "file": "FJ2145.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ2145_BP21061_FMA21379_Right%20great%20saphenous%20vein.obj",
+      "sha256": "ef8d01ca0259213a168a28d8a1a00699aff219d1e767c06a9d50a3703d98f652",
+      "bytes": 2029016,
+      "mirrorPath": "meshes/FJ2145_BP21061_FMA21379_Right great saphenous vein.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ2145_BP21061_FMA21379_Right%20great%20saphenous%20vein.obj"
+    },
+    {
+      "id": "FJ2103",
+      "file": "FJ2103.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ2103_BP21070_FMA21380_Left%20great%20saphenous%20vein.obj",
+      "sha256": "0bc8b17acd8630e229cc69387fde33c22a5ed8e7ceea037063ade52c05f626d5",
+      "bytes": 2016874,
+      "mirrorPath": "meshes/FJ2103_BP21070_FMA21380_Left great saphenous vein.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ2103_BP21070_FMA21380_Left%20great%20saphenous%20vein.obj"
+    },
+    {
+      "id": "FJ2176",
+      "file": "FJ2176.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ2176_BP21219_FMA44334_Right%20small%20saphenous%20vein.obj",
+      "sha256": "156a8d2a52252be376b672e1f4622f2c23005679e02c96be38ed4b039d566b5a",
+      "bytes": 1061030,
+      "mirrorPath": "meshes/FJ2176_BP21219_FMA44334_Right small saphenous vein.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ2176_BP21219_FMA44334_Right%20small%20saphenous%20vein.obj"
+    },
+    {
+      "id": "FJ2121",
+      "file": "FJ2121.obj",
+      "url": "https://media.githubusercontent.com/media/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ2121_BP21258_FMA44335_Left%20small%20saphenous%20vein.obj",
+      "sha256": "5ca6f352a59a73a8bc654d912a788532b060fc517e5edd5afcd69112d8a3cfc8",
+      "bytes": 1053371,
+      "mirrorPath": "meshes/FJ2121_BP21258_FMA44335_Left small saphenous vein.obj",
+      "pointerUrl": "https://raw.githubusercontent.com/olivercase/body_parts_3d_api/fd527e6f4daf732fd814314d9257df5877b844bc/meshes/FJ2121_BP21258_FMA44335_Left%20small%20saphenous%20vein.obj"
+    }
+  ]
+}
