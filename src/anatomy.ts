@@ -10,12 +10,25 @@ export type Structure = {
   kind: 'artery' | 'vein'
   // Official 4.3 IS-A concepts this structure draws its source meshes from.
   concepts: string[]
-  // FJ element files; each element belongs to exactly one structure.
+  // FJ element files; each element belongs to exactly one structure, unless
+  // the structures are parts that divide it.
   elements: string[]
+  // Set when the source models this structure and its neighbour as one
+  // surface: it keeps the source triangles whose centre `keep` accepts.
+  part?: { landmark: string; keep: (centre: Point) => boolean }
   color: string
   description: string
   note: string
 }
+
+// A point in the source's millimetres: x toward the left side, z upward.
+export type Point = [x: number, y: number, z: number]
+
+// The coeliac trunk, the abdominal aorta's first branch, leaves the source's
+// descending aorta between z = 1079 and 1089 mm, just below the diaphragm, so
+// the aorta above z = 1090 mm is thoracic.
+const inChest = ([, , z]: Point) => z > 1090
+const aorticHiatus = 'the origin of the coeliac trunk, just below the diaphragm'
 
 // Arteries are drawn in reds and veins in blues, as in most anatomy atlases.
 // The pulmonary vessels follow the blood they carry: the pulmonary arteries
@@ -93,18 +106,19 @@ export const structures: Structure[] = [
     note: '',
   },
   {
-    id: 'descending-aorta',
-    fma: 'FMA3784',
-    name: 'Descending aorta',
-    sourceName: 'descending aorta',
+    id: 'thoracic-aorta',
+    fma: 'FMA87217',
+    name: 'Thoracic aorta',
+    sourceName: 'descending aorta, above the coeliac trunk',
     group: 'Chest',
     kind: 'artery',
     concepts: ['FMA3784'],
     elements: ['FJ3427'],
+    part: { landmark: aorticHiatus, keep: inChest },
     color: '#9e2c2b',
     description:
-      'Runs down the back of the chest and through the diaphragm into the abdomen, where it divides into the two common iliac arteries.',
-    note: 'The source models the thoracic and abdominal parts as one mesh, so they are selected together.',
+      'The descending aorta in the chest. It runs down beside the spine behind the heart, giving branches to the ribs, oesophagus and airways, to pass through the diaphragm.',
+    note: 'The source models the descending aorta as one mesh. It is divided here just above the coeliac trunk, where the aorta passes through the diaphragm.',
   },
   {
     id: 'brachiocephalic-trunk',
@@ -354,6 +368,21 @@ export const structures: Structure[] = [
     description:
       'Surface veins on the little-finger side of the arm. Near the elbow they are a common site for drawing blood.',
     note: '',
+  },
+  {
+    id: 'abdominal-aorta',
+    fma: 'FMA3789',
+    name: 'Abdominal aorta',
+    sourceName: 'descending aorta, from the coeliac trunk down',
+    group: 'Abdomen',
+    kind: 'artery',
+    concepts: ['FMA3784'],
+    elements: ['FJ3427'],
+    part: { landmark: aorticHiatus, keep: (centre) => !inChest(centre) },
+    color: '#a5302d',
+    description:
+      'Continues the aorta from the diaphragm down in front of the spine, giving off the arteries to the gut, kidneys and adrenals, and divides into the two common iliac arteries in front of the fourth lumbar vertebra.',
+    note: 'Divided from the thoracic aorta just above the coeliac trunk, where the aorta passes through the diaphragm.',
   },
   {
     id: 'celiac-trunk',
@@ -789,7 +818,7 @@ export const tour: { id: string; title: string; text: string; view: View; isolat
     view: 'Head and neck',
   },
   {
-    id: 'descending-aorta',
+    id: 'abdominal-aorta',
     title: 'Down the body',
     text: 'The aorta runs down the back of the chest and abdomen, giving off branches to the organs, until it splits in two at the pelvis.',
     view: 'Anterior',

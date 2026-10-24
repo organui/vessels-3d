@@ -5,7 +5,7 @@ import { simplify, weld } from '@gltf-transform/functions'
 import { MeshoptSimplifier } from 'meshoptimizer'
 import { BufferGeometry, Float32BufferAttribute, Color } from 'three'
 import inputs from './model-inputs.json'
-import { structures } from '../src/anatomy'
+import { structures, type Point } from '../src/anatomy'
 
 const sha = (data: Uint8Array) => createHash('sha256').update(data).digest('hex')
 await mkdir('.asset-cache/objs', { recursive: true })
@@ -51,16 +51,21 @@ const prepared = []
 for (const structure of structures) {
   const mapped = structure.concepts.flatMap((c) => isa.get(c) ?? [])
   const fmaElements = isa.get(structure.fma) ?? []
+  // A part names its own concept, which the source has no elements for.
   if (
+    !structure.part &&
     structure.fma !== structure.concepts[0] &&
     !structure.elements.every((id) => fmaElements.includes(id))
   )
     throw new Error(`${structure.id}: fma must be its first concept or cover every element`)
-  const positions: number[] = [],
+  let positions: number[] = [],
     indices: number[] = []
   const sources = structure.elements.map((id) => {
     if (!mapped.includes(id)) throw new Error(`${id} is not an IS-A element of ${structure.id}`)
-    if (used.has(id)) throw new Error(`Duplicate ownership: ${id}`)
+    // A divided element belongs to each of its parts, and only to them.
+    const owners = structures.filter((s) => s.elements.includes(id))
+    if (owners.length > 1 && !owners.every((s) => s.part && s.elements.length === 1))
+      throw new Error(`Duplicate ownership: ${id}`)
     used.add(id)
     const input = inputs.objects.find((i) => i.id === id)
     if (!input) throw new Error(`Missing input: ${id}`)
@@ -115,9 +120,43 @@ for (const structure of structures) {
       bytes: bytes.length,
       vertices: vertexCount,
       triangles,
+      keptTriangles: undefined as number | undefined,
     })
   }
+  if (structure.part) {
+    // Keep the triangles whose centre lies on this part's side of its landmark,
+    // with only the vertices they use, so the part frames on its own.
+    const kept = new Map<number, number>()
+    const keptPositions: number[] = [],
+      keptIndices: number[] = []
+    for (let t = 0; t < indices.length; t += 3) {
+      const face = indices.slice(t, t + 3)
+      const centre = [0, 1, 2].map(
+        (axis) => face.reduce((sum, v) => sum + positions[v * 3 + axis], 0) / 3,
+      )
+      if (!structure.part.keep(centre as Point)) continue
+      for (const v of face) {
+        if (!kept.has(v)) {
+          kept.set(v, keptPositions.length / 3)
+          keptPositions.push(positions[v * 3], positions[v * 3 + 1], positions[v * 3 + 2])
+        }
+        keptIndices.push(kept.get(v)!)
+      }
+    }
+    if (!keptIndices.length) throw new Error(`Empty part: ${structure.id}`)
+    elements[0].keptTriangles = keptIndices.length / 3
+    positions = keptPositions
+    indices = keptIndices
+  }
   prepared.push({ structure, positions, indices, elements })
+}
+// The parts of a divided element must share out its triangles between them.
+for (const id of used) {
+  const parts = prepared.filter((p) => p.structure.part && p.structure.elements.includes(id))
+  if (!parts.length) continue
+  const kept = parts.reduce((n, p) => n + p.elements[0].keptTriangles!, 0)
+  if (kept !== parts[0].elements[0].triangles)
+    throw new Error(`Parts of ${id} overlap or leave a gap`)
 }
 if (used.size !== inputs.objects.length)
   throw new Error(
@@ -210,6 +249,7 @@ const manifest = {
     runtimeTriangles: runtimeTriangles[structure.id],
     concepts: structure.concepts,
     sourceName: structure.sourceName,
+    landmark: structure.part?.landmark,
     elements,
   })),
 }

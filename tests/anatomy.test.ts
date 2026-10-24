@@ -15,9 +15,22 @@ describe('selection emphasis', () => {
 })
 
 describe('source ownership', () => {
-  test('assigns every source element to exactly one structure', () => {
-    const elements = structures.flatMap((s) => s.elements)
-    expect(new Set(elements).size).toBe(elements.length)
+  test('assigns every source element to one structure, or to the parts that divide it', () => {
+    const whole = structures.filter((s) => !s.part).flatMap((s) => s.elements)
+    expect(new Set(whole).size).toBe(whole.length)
+    for (const s of structures.filter((s) => s.part)) {
+      expect(s.elements).toHaveLength(1)
+      expect(whole).not.toContain(s.elements[0])
+    }
+  })
+
+  test('gives every point of the descending aorta to exactly one part', () => {
+    const parts = structures.filter((s) => s.elements[0] === 'FJ3427')
+    expect(parts.map((s) => s.id)).toEqual(['thoracic-aorta', 'abdominal-aorta'])
+    for (const z of [950, 1085, 1089.9, 1090.1, 1280])
+      expect(parts.filter((s) => s.part!.keep([10, -90, z]))).toHaveLength(1)
+    expect(byId['abdominal-aorta'].part!.keep([10, -120, 1080])).toBe(true)
+    expect(byId['thoracic-aorta'].part!.keep([10, -60, 1200])).toBe(true)
   })
 })
 

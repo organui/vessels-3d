@@ -41,13 +41,13 @@ Scene-specific logic lives in `src/anatomy-adapter.ts`, built from the existing 
 | Tree ID | Scene leaves (GLB `structureId`) |
 | --- | --- |
 | `group-head-and-neck` | `carotid-arteries`, `vertebral-arteries`, `jugular-veins` |
-| `group-chest` | `ascending-aorta`, `aortic-arch`, `descending-aorta`, `brachiocephalic-trunk`, `internal-thoracic-arteries`, `pulmonary-trunk`, `pulmonary-arteries`, `pulmonary-veins`, `superior-vena-cava`, `brachiocephalic-veins`, `azygos-system` |
+| `group-chest` | `ascending-aorta`, `aortic-arch`, `thoracic-aorta`, `brachiocephalic-trunk`, `internal-thoracic-arteries`, `pulmonary-trunk`, `pulmonary-arteries`, `pulmonary-veins`, `superior-vena-cava`, `brachiocephalic-veins`, `azygos-system` |
 | `group-arms` | `subclavian-arteries`, `axillary-arteries`, `brachial-arteries`, `radial-arteries`, `ulnar-arteries`, `palmar-arches`, `subclavian-veins`, `axillary-veins`, `cephalic-veins`, `basilic-veins` |
-| `group-abdomen` | `celiac-trunk`, `hepatic-artery`, `splenic-artery`, `superior-mesenteric-artery`, `inferior-mesenteric-artery`, `renal-arteries`, `inferior-vena-cava`, `renal-veins`, `portal-vein`, `splenic-mesenteric-veins` |
+| `group-abdomen` | `abdominal-aorta`, `celiac-trunk`, `hepatic-artery`, `splenic-artery`, `superior-mesenteric-artery`, `inferior-mesenteric-artery`, `renal-arteries`, `inferior-vena-cava`, `renal-veins`, `portal-vein`, `splenic-mesenteric-veins` |
 | `group-pelvis` | `common-iliac-arteries`, `internal-iliac-arteries`, `external-iliac-arteries`, `common-iliac-veins`, `internal-iliac-veins`, `external-iliac-veins` |
 | `group-legs` | `femoral-arteries`, `deep-femoral-arteries`, `popliteal-arteries`, `anterior-tibial-arteries`, `posterior-tibial-arteries`, `fibular-arteries`, `foot-arteries`, `femoral-veins`, `popliteal-veins`, `great-saphenous-veins`, `small-saphenous-veins` |
 
-Groups are interface groupings only and do not claim anatomical containment (for example, the descending aorta continues through the abdomen but is listed under the chest). Every leaf ID is exactly one application structure ID and one GLB node.
+Groups are interface groupings only and do not claim anatomical containment (for example, the inferior vena cava ends in the chest but is listed under the abdomen). Every leaf ID is exactly one application structure ID and one GLB node.
 
 Leaves carry `color` from `structures` in `src/anatomy.ts`, the same value the renderer applies to the mesh material; group rows set `selectable: false`. The adapter provides `anatomyTree`, `sceneIdsForNode`, `normalizeVisibility`, `visibilityFromHidden` / `hiddenFromVisibility` (the app keeps its existing `hidden` set and converts at the boundary), `isStructureId`, and `assertAnatomyMapping`, which runs at import and throws on missing, unknown, or duplicate leaves. `src/anatomy-adapter.test.ts` covers these with `bun test`.
 

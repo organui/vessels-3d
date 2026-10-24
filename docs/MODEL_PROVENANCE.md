@@ -29,7 +29,7 @@ Each structure's `fma` is either a concept whose IS-A set covers all its element
 | Head and neck | Jugular veins | FMA50818, FMA4762, FMA13111 | FJ5105, FJ3485, FJ5082 |
 | Chest | Ascending aorta | FMA3736 | FJ3413 |
 | Chest | Aortic arch | FMA3768 | FJ3411 |
-| Chest | Descending aorta | FMA3784 | FJ3427 |
+| Chest | Thoracic aorta (FMA87217) | FMA3784, above the coeliac trunk | FJ3427, divided |
 | Chest | Brachiocephalic trunk | FMA69316 | FJ4715 |
 | Chest | Internal thoracic arteries | FMA76303, FMA76304 | FJ1937, FJ1972 |
 | Chest | Pulmonary trunk | FMA8612 | FJ2966 |
@@ -48,6 +48,7 @@ Each structure's `fma` is either a concept whose IS-A set covers all its element
 | Arms | Axillary veins | FMA13330, FMA13331 | FJ2269, FJ2217 |
 | Arms | Cephalic veins | FMA13325, FMA13326 | FJ2272, FJ2220 |
 | Arms | Basilic veins | FMA22909, FMA22910 | FJ2270, FJ2218 |
+| Abdomen | Abdominal aorta (FMA3789) | FMA3784, from the coeliac trunk down | FJ3427, divided |
 | Abdomen | Celiac trunk | FMA14812 | FJ3421 |
 | Abdomen | Hepatic artery | FMA76536, FMA76548 | FJ3078, FJ3081 |
 | Abdomen | Splenic artery | FMA14773 | FJ3640, FJ3544, FJ3420 |
@@ -76,18 +77,18 @@ Each structure's `fma` is either a concept whose IS-A set covers all its element
 | Legs | Great saphenous veins | FMA21379, FMA21380 | FJ2145, FJ2103 |
 | Legs | Small saphenous veins | FMA44334, FMA44335 | FJ2176, FJ2121 |
 
-135 elements, 51 structures. Each element belongs to exactly one structure; the script refuses duplicates and unused inputs. Per-element hashes, sizes, header concepts and triangle counts are in the [manifest](../public/models/manifest.json) and [selected-mappings.tsv](model-source/selected-mappings.tsv).
+135 elements, 52 structures. Each element belongs to exactly one structure, except the descending aorta, which its two parts divide; the script refuses any other duplicate, unused inputs, and parts that overlap or leave a gap. Per-element hashes, sizes, header concepts and triangle counts are in the [manifest](../public/models/manifest.json) and [selected-mappings.tsv](model-source/selected-mappings.tsv).
 
 ## Decisions
 
 - **Scope.** The main named arteries and veins from the neck to the feet. The heart, vessels inside organs, the dural sinuses, and most small branches are left out; several organ explorers already cover their own vessels. Testicular and ovarian vessels, the suprarenal vessels, the tibial and fibular veins and the forearm veins are left out to keep the view readable.
-- **Pairs.** Left and right vessels are one selectable structure, so the tree lists 51 rows instead of about 95.
+- **Pairs.** Left and right vessels are one selectable structure, so the tree lists 52 rows instead of about 95.
 - **Duplicate versions.** 4.3 contains some vessels twice: an older element and a newer, finer one (for example the brachiocephalic trunk FJ3417 and FJ4715, the pulmonary trunk FJ2966 and FJ6036, the left superior pulmonary vein FJ2925 and FJ5994). Bounds were compared and only one version is used, so surfaces don't overlap. The newer right neck elements (FJ4986, FJ4993, FJ4989, FJ5015, FJ5105) are used because they cover the whole neck; the older right elements are not.
 - **Uneven neck.** The source has an external carotid and external jugular only on the right, and the left internal jugular is a short lower segment. On the left, the element the table calls the internal carotid trunk (FJ3483, FMA75867) sits where the common carotid runs, and the one it calls the common carotid trunk (FJ1682M, FMA69326) sits where the internal carotid runs, with a gap between them. The structure is therefore one "Carotid arteries" set rather than separate common, internal and external rows, which would put those two labels on the wrong segments.
 - **Header exceptions.** The right radial and ulnar trunks (FJ2294, FJ2310) carry the right brachial artery's concept (FMA22691) in their OBJ headers. The official table maps them to the radial (FMA66625) and ulnar (FMA66623) trunks, and their geometry runs down the forearm, mirroring the left radial and ulnar trunks, so the table is used.
 - **Left out on purpose.** FJ2127 and FJ2090, labelled a right femoral trunk and a left deep femoral artery, are a mirrored pair of short thigh segments that match neither label's partner on the other side, so they are omitted. Three small extra pieces labelled left external iliac vein (FJ3522–FJ3524) have no right-side counterpart and are omitted.
 - **Segments.** The inferior vena cava (FJ3659, FJ3441) and several iliac veins come as consecutive segments, which are grouped.
-- The descending aorta is one element running from the arch to the iliac bifurcation, so its thoracic and abdominal parts can't be selected separately.
+- The descending aorta is one element running from the arch to the iliac bifurcation. So that a disease of one part, such as an abdominal aortic aneurysm, can be shown on its own, `prepare-model.ts` divides it into the thoracic and abdominal aorta. This is OrganUI's derivation, not a boundary in the source. Each source triangle whose centre lies above z = 1090 mm goes to the thoracic aorta, the rest to the abdominal aorta: the coeliac trunk, the abdominal aorta's first branch, leaves the mesh between z = 1079 and 1089 mm, just below the diaphragm's aortic hiatus. That gives 2,752 and 1,810 of FJ3427's 4,562 source triangles. The surface is not reshaped or capped, so each part is open along the cut.
 
 ## Transformation and orientation
 

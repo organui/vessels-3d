@@ -44,8 +44,8 @@
   },
   "runtime": {
     "file": "vessels.glb",
-    "bytes": 2417320,
-    "sha256": "3e0f747694327206bf06fb5c91f2dfe4b727986ad9d3e1a638feedbc8d5c5a9a"
+    "bytes": 2419320,
+    "sha256": "d2dd99113eda9ccf39d8a9bff7d6c9d07252867cabdcaf7bc1c3454a2883701d"
   },
   "structures": [
     {
@@ -236,14 +236,15 @@
       ]
     },
     {
-      "id": "descending-aorta",
-      "fma": "FMA3784",
+      "id": "thoracic-aorta",
+      "fma": "FMA87217",
       "kind": "artery",
-      "runtimeTriangles": 912,
+      "runtimeTriangles": 550,
       "concepts": [
         "FMA3784"
       ],
-      "sourceName": "descending aorta",
+      "sourceName": "descending aorta, above the coeliac trunk",
+      "landmark": "the origin of the coeliac trunk, just below the diaphragm",
       "elements": [
         {
           "element": "FJ3427",
@@ -253,7 +254,8 @@
           "sha256": "5d461cda0a71eaa0136f3a13bf1938ad7660ee3e4cc1750eb4ac865c91ba4668",
           "bytes": 288865,
           "vertices": 2351,
-          "triangles": 4562
+          "triangles": 4562,
+          "keptTriangles": 2752
         }
       ]
     },
@@ -878,6 +880,30 @@
           "bytes": 1181387,
           "vertices": 9177,
           "triangles": 18338
+        }
+      ]
+    },
+    {
+      "id": "abdominal-aorta",
+      "fma": "FMA3789",
+      "kind": "artery",
+      "runtimeTriangles": 362,
+      "concepts": [
+        "FMA3784"
+      ],
+      "sourceName": "descending aorta, from the coeliac trunk down",
+      "landmark": "the origin of the coeliac trunk, just below the diaphragm",
+      "elements": [
+        {
+          "element": "FJ3427",
+          "concept": "FMA3784",
+          "headerConcept": "FMA3784",
+          "sourceName": "Descending aorta",
+          "sha256": "5d461cda0a71eaa0136f3a13bf1938ad7660ee3e4cc1750eb4ac865c91ba4668",
+          "bytes": 288865,
+          "vertices": 2351,
+          "triangles": 4562,
+          "keptTriangles": 1810
         }
       ]
     },

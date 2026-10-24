@@ -2,7 +2,7 @@
 
 A minimal, standalone, open-source explorer for the body's major blood vessels, built with React, TypeScript, Three.js, React Three Fiber, Vite, and Bun. It shares its interaction design and code with [OrganUI Heart](https://github.com/organui/heart-3d).
 
-**Status:** working local demo. Fifty-one selectable arteries and veins from a real, openly licensed model, grouped by body region, with responsive layouts and checked desktop/mobile interactions. Public deployment and clinical anatomy review have not been completed.
+**Status:** working local demo. Fifty-two selectable arteries and veins from a real, openly licensed model, grouped by body region, with responsive layouts and checked desktop/mobile interactions. Public deployment and clinical anatomy review have not been completed.
 
 ![OrganUI Vessels desktop explorer](docs/screenshots/desktop.png)
 
@@ -56,7 +56,7 @@ Arteries are red and veins blue. The pulmonary vessels are the exception: they f
 
 > BodyParts3D / Anatomography, © The Database Center for Life Science (DBCLS), licensed under Creative Commons Attribution-Share Alike 2.1 Japan. Adapted by OrganUI.
 
-The model is a curated subset of **BodyParts3D / Anatomography 4.3**: 135 source meshes grouped into 51 structures and simplified from 521,538 to 121,908 triangles. The model data and screenshots of it are under **[CC BY-SA 2.1 Japan](https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en)**, separately from this repository's **MIT code license**. Meshes come from a checksum-pinned public mirror and are cross-checked against the official 4.3 concept table. Read [model provenance](docs/MODEL_PROVENANCE.md), [asset attribution](public/models/ATTRIBUTION.md) and the [manifest](public/models/manifest.json).
+The model is a curated subset of **BodyParts3D / Anatomography 4.3**: 135 source meshes grouped into 52 structures, with the descending aorta divided at the diaphragm, and simplified from 521,538 to 121,908 triangles. The model data and screenshots of it are under **[CC BY-SA 2.1 Japan](https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en)**, separately from this repository's **MIT code license**. Meshes come from a checksum-pinned public mirror and are cross-checked against the official 4.3 concept table. Read [model provenance](docs/MODEL_PROVENANCE.md), [asset attribution](public/models/ATTRIBUTION.md) and the [manifest](public/models/manifest.json).
 
 Descriptions summarise the [NCI SEER Training pages on blood vessels](https://training.seer.cancer.gov/anatomy/cardiovascular/blood/) and general anatomy. **Expert anatomical review is pending.** This is an educational interface demonstration, not a diagnostic or clinical tool.
 
